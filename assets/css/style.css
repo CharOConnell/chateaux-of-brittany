@@ -1,3 +1,180 @@
-.background-color {
+/* GLOBAL SETTINGS */
+@import url('https://fonts.googleapis.com/css?family=Karla:100,200,300,400,500,600,700');
+
+body {
     background-color: #ffffcc;
+    margin: 0;
+    color: #fff;
+    min-width: 100vw;
+    font-family: "Karla", sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-centre {
+    max-width: 100vw;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.horrule {
+    border: 1px solid #999999;
+    padding: 0;
+    margin: 10px 35%;
+    font-size: 16px;
+    background-color: #999999;
+}
+
+/* --------------------- Header ---------------------*/
+.heading-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #999999;
+    min-height: 15vh;
+    min-width: 100vw;
+    font-size: 4.5vh;
+}
+
+.home-pic {
+    opacity: 1;
+    background: url("../images/homeicon.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 15%;
+    min-height: 15vh;
+    min-width: 15vh;
+    margin: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.web-name {
+    position: relative;
+    align-items: center;
+    padding-top: 3%;
+    padding-left: 10;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #000;
+    padding-right: 0;
+}
+
+@media(min-width: 768px) {
+    .web-name{
+        position: relative;
+        align-items: center;
+        padding-top: 2%;
+        padding-left: 10;
+        font-weight: bold;
+        font-size: 4.5vh;
+        color: #000;
+        padding-right: 0;
+    }
+}
+
+/* --------------------- Navbar --------------------- */
+#nav-container {
+    position: fixed;
+    top: 3.5vh;
+    right: 1vh;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    font-size: 3vh;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    background-color: rgba(153, 153, 153, 0.75);
+}
+
+.navbar .nabvar-nav a {
+    font-weight: bold;
+    color: #000;
+}
+
+#navbar-dropdown {
+    padding: 1vw;
+    padding-right: 5vw;
+    padding-left: 2vw;
+    background-color: rgba(153, 153, 153, 0.75);
+    border-radius: 30px;
+    margin-top: 2vh;
+    padding-top: 7vh;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 0;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+button .navbar-toggler .navbar-toggler-icon {
+    position: absolute;
+    right: 1vw;
+    background-color: rgba(153, 153, 153, 0.75);
+    border: 0;
+    top: 5vh;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border: 0;
+    background-color: rgba(153, 153, 153, 0.75);
+    border-color: rgba(153, 153, 153, 0.75);
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 2vh;
+    padding: 1.5vh 3vw;
+    padding-bottom: 2vh;
+}
+
+
+@media(min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1vw;
+        padding-left: 1vw;
+        color: #fff;
+        font-size: 2.1vh;
+        margin: 0px 10px;
+        padding-bottom: 10px;
+    }
+
+    #navbar-dropdown {
+    padding: 1vh;
+    padding-right: 3vw;
+    background-color: rgba(153, 153, 153, 0.75);
+    border-radius: 30px;
+    margin-top: 3vh;
+    right: 0;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 2.5vh;
+    padding: 1.5vh 1vw;
+    padding-bottom: 2vh;
+    }
 }
