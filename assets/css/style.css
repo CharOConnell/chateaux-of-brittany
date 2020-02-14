@@ -204,10 +204,13 @@ button .navbar-toggler .navbar-toggler-icon {
 
 /* WELCOME SECTION */
 .welcome {
-    color: #3C3C3C;
+
 }
 
 /* MAP SECTION */
+div#map {
+    min-height: 360px;
+}
 
 
 /* RESPONSE SECTION */
@@ -216,4 +219,13 @@ button .navbar-toggler .navbar-toggler-icon {
 /* CONTACT SECTION */
 
 
-
+/* FOOTER */
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #999999;
+    min-height: 2vh;
+    min-width: 100vw;
+    padding: 0;
+}
