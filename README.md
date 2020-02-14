@@ -2,9 +2,9 @@
 ## Interactive Frontend Development Milestone Project - Code Institute
 
 The premise of this site is to provide information and photos of castles that are visitable in the Brittany area, ideal for those looking to take a holiday in Brittany.
-A user can look up the castle or town and it will come up with some information. 
+A user can look up the castle or town and it will come up with some information - parking, ratings, pictures.
 
-Potential to add comments from other users, to make it more of a friendly site.
+
  
 ## UX
  
