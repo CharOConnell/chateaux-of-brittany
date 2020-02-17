@@ -115,6 +115,7 @@ The photos used in this site were taken from my personal collection of holiday p
 All information attached to the maps is retrieved from Google Maps API.
 
 ### Acknowledgements
+All elements which I have used within this page that were inspired by, or are from exteranl sources, are linked below:
 - For the base information to create the flex system, I used [this page](https://getbootstrap.com/docs/4.0/utilities/flex/) as a reference
 - To make the overlay on my personal images, I used ideas from this [tutorial](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) in order to provide extra information to users
 - For the contact section, I used emailJS .. need to find where that's from actually..
