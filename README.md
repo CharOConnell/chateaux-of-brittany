@@ -120,3 +120,5 @@ All elements which I have used within this page that were inspired by, or are fr
 - To make the overlay on my personal images, I used ideas from this [tutorial](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) in order to provide extra information to users
 - For the contact section, I used emailJS .. need to find where that's from actually..
 - The dropdown menu was styled using the Bootstrap "navbar" item, found [here](https://getbootstrap.com/docs/4.0/components/navbar/), and was originally used in a previous project which can be found [here](https://github.com/CharOConnell/charlottes-web)
+- Help for the Google Maps API / Google Places API found [here](https://developers.google.com/maps/documentation/javascript/places?hl=es)
+- Help for styling the map was found [here](https://developers.google.com/maps/documentation/javascript/styling?hl=es)
