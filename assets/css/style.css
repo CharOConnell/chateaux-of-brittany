@@ -214,7 +214,11 @@ div#map {
 
 
 /* RESPONSE SECTION */
-
+#chateau-search-name {
+    color: rgb(102, 102, 102);
+    min-width: 260px;
+    margin-bottom: 15px;
+}
 
 /* CONTACT SECTION */
 
