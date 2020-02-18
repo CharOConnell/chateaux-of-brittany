@@ -72,6 +72,8 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
     - The project uses **JQuery** to simplify DOM manipulation
 - [JavaScript](https://www.javascript.com/)
     - The project uses **JavaScript** to send emails from the contact form, to use the map and retrieve information from Google Maps API
+- [Font Awesome](https://fontawesome.com/)
+    - The project uses **Font Awesome** for icons within the webpage
 
 
 ## Testing
@@ -113,6 +115,7 @@ Text was written by me within the site. Any information attached to the maps is 
 ### Media
 The photos used in this site were taken from my personal collection of holiday photos. 
 All information attached to the maps is retrieved from Google Maps API.
+All icons are from the Font Awesome website.
 
 ### Acknowledgements
 All elements which I have used within this page that were inspired by, or are from exteranl sources, are linked below:

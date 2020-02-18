@@ -203,9 +203,7 @@ button .navbar-toggler .navbar-toggler-icon {
 }
 
 /* WELCOME SECTION */
-.welcome {
 
-}
 
 /* MAP SECTION */
 div#map {
@@ -221,6 +219,35 @@ div#map {
 }
 
 /* CONTACT SECTION */
+.form-control {
+    background-color: #FFFFB4;
+    color: #999999;
+    border-color: #3c3c3c;
+    height: 5vh;
+    font-size: 2vh;
+    margin: 2px;
+}
+
+.center-form {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    margin: auto;
+    max-width: 80%;
+    max-height: 50vh;
+    min-height: 40vh;
+}
+
+
+button[type="submit"] {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: #000;
+    background-color: #ffff85;
+    font-size: 2vh;
+    font-weight: bold;
+    border: solid 1px #999999;
+}
 
 
 /* FOOTER */
