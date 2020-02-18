@@ -39,13 +39,17 @@ I created an original skeleton page using Pencil software which was then modifie
 
 For ease of viewing, I have attached the main mockups below:
 - Mobile page with a selection: 
-    ![Mobile page with selection wireframe](assets/mockupDocumentation/Mobile_sel.png)
+    
+![Mobile page with selection wireframe](assets/mockupDocumentation/Mobile_sel.png)
 - Mobile page without a selection: 
-    ![Mobile page without selection wireframe](assets/mockupDocumentation/Mobile_no_sel.png)
+    
+![Mobile page without selection wireframe](assets/mockupDocumentation/Mobile_no_sel.png)
 - Web page with a selection: 
-    ![Web page with selection wireframe](assets/mockupDocumentation/Web_sel.png)
+    
+![Web page with selection wireframe](assets/mockupDocumentation/Web_sel.png)
 - Web page without a selection: 
-    ![Web page without selection wireframe](assets/mockupDocumentation/Web_no_sel.png)
+
+![Web page without selection wireframe](assets/mockupDocumentation/Web_no_sel.png)
 
 I created a tablet wireframe (included in the .pdf) as historically this came out differently when creating websites, so wanted to have a plan for this eventuality.
 
