@@ -35,14 +35,15 @@ Grouping the page into three sections of:
 - Contact page with form to contact me via email 
 
 #### Skeleton
-I created an original skeleton page using Pencil software which was then modified after the preliminary discussion with my mentor. The latest version of the skeleton can be found [here](assets/mockupDocumentation/). 
+I created an original skeleton page using Pencil software which was then modified after the preliminary discussion with my mentor. The latest version of the skeleton can be found [here](assets/mockupDocumentation/wireframe.pdf). 
 
 For ease of viewing, I have attached the main mockups below:
-- ![Mobile page wireframe](assets/mockupDocumentation/mobile.jpg)
-- ![Tablet page wireframe](...)
-- ![Webpage wireframe](...)
+- ![Mobile page with selection wireframe](assets/mockupDocumentation/Mobile_sel.png)
+- ![Mobile page without selection wireframe](assets/mockupDocumentation/Mobile_no_sel.png)
+- ![Web page with selection wireframe](assets/mockupDocumentation/Web_sel.png)
+- ![Web page without selection wireframe](assets/mockupDocumentation/Web_no_sel.png)
 
-I created a tablet wireframe as historically this came out differently when creating websites, so wanted to have a plan for this eventuality.
+I created a tablet wireframe (included in the .pdf) as historically this came out differently when creating websites, so wanted to have a plan for this eventuality.
 
 #### Surface
 The light yellow colour scheme with grey theme was designed to feel modern and happy, yet chic and user friendly for all users. 
