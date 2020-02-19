@@ -98,18 +98,12 @@ Testing the menu:
 - The small menu item pushed into the margin that is not existent in the header bar, so I had to check margin sizes within the Bootstrap row
 - I then tried clicking each menu item, and this successfully took me to the relevant section in the website, for both the expandable menu and the enlarged menu 
 
-Testing the contact form:
-- I wrote a script in jasmine to do this
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-
 Testing the email using emailJS:
 - After initial setting up, a console.log("Hello") was added to the sendEmail.js to check functionality
-- 
+- Within emailJS test that the relevant email sends with the correct template as designed
+- Attempt to submit an empty form to check an error message for the designated fields appears
+- Check that email address box requires an @ and produces the correct error message
+- do it through jasmine?
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
