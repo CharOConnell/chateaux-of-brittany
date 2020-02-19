@@ -159,7 +159,6 @@ button .navbar-toggler .navbar-toggler-icon {
     padding-bottom: 2vh;
 }
 
-
 @media(min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1vw;
@@ -190,7 +189,6 @@ button .navbar-toggler .navbar-toggler-icon {
         top: 3.5vh;
     }
 }
-
 
 /* WELCOME SECTION */
 #sub-heading {
@@ -269,7 +267,6 @@ div#map {
     min-height: 40vh;
 }
 
-
 button[type="submit"] {
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -279,7 +276,6 @@ button[type="submit"] {
     font-weight: bold;
     border: solid 1px #999999;
 }
-
 
 /* FOOTER */
 .footer {
