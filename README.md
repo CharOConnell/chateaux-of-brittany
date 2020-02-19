@@ -83,27 +83,40 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
     - The project uses **JavaScript** to send emails from the contact form, to use the map and retrieve information from Google Maps API
 - [Font Awesome](https://fontawesome.com/)
     - The project uses **Font Awesome** for icons within the webpage
-
+- [emailJS](https://www.emailjs.com/)
+    - The project uses **emailJS** to send emails from the contact form to my personal account
 
 ## Testing
+Testing for the welcome photos:
+- I wanted to have the photos for all screen sizes, but I had 10 photos I wanted to use, so I had to create a system in the grid that would be suitable for all screen sizes
+- Three columns looked messy with the 10 photos, so I moved it to having 5 per row, but this did not look good for smaller screen sizes
+- For smaller screen sizes, I experimented with 4 on a row, but this again looked not as chic as I wanted, so I tested it with two rows of 3, and one of 4
+- I then checked using Chrome Developer Tools to check with all different variants provided there to make sure that it still looked how I wanted it to
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing the menu:
+- The menu is one based on my last created web page, but I wanted to check that it worked
+- The small menu item pushed into the margin that is not existent in the header bar, so I had to check margin sizes within the Bootstrap row
+- I then tried clicking each menu item, and this successfully took me to the relevant section in the website, for both the expandable menu and the enlarged menu 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
+Testing the contact form:
+- I wrote a script in jasmine to do this
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
+
+Testing the email using emailJS:
+- 
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
@@ -119,7 +132,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 ### Content
-Text was written by me within the site. Any information attached to the maps is from the Google Maps API.
+Text was written by me within the site. Any information attached to the maps is from the Google Maps API and Google Places API.
 
 ### Media
 The photos used in this site were taken from my personal collection of holiday photos. 
