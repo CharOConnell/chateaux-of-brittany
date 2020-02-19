@@ -34,9 +34,9 @@ var map;
 // https://www.google.com/maps/search/castles/@47.8895699,-3.6584495,8.19z/data=!4m2!2m1!6e1?hl=en
 
 // THIS WORKS!
-// https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=castles&inputtype=textquery&fields=formatted_address,name,geometry&key=AIzaSyAyrCzti1IFJ1Q2TcZnMqha4OmdS5nyZkE
+// https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=castles&inputtype=textquery&fields=formatted_address,name,geometry&key=YOUR_API_KEY
 // MULTIPLE ONES:
-// https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=48%2C-3&radius=50000&keyword=chateau&key=AIzaSyAyrCzti1IFJ1Q2TcZnMqha4OmdS5nyZkE
+// https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=48%2C-3&radius=50000&keyword=chateau&key=YOUR_API_KEY
 
 
 function initMap() {
