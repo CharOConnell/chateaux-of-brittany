@@ -14,18 +14,18 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
 
-    <!-- Load Jasmine Framework -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"></script>
+
+	<!-- Load Jasmine Framework -->
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.js" integrity="sha256-HG8TKl0T65NyELmbUoo0H7/a1e++smYdXXtuuEsyKok=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css"/>
 
     <script type="text/javascript" src="assets/specs/formspec.js"></script>
-
-    <!-- Load emailJS Framework -->
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+-->
+	<!-- Load emailJS Framework -->
+	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
 	<script type="text/javascript">
 		(function(){
             emailjs.init("user_YUlJga6yO9NXvpaCGsnxX");
@@ -47,7 +47,8 @@
 
 			<div class="collapse navbar-collapse" id="navbar-dropdown">
 				<ul class="navbar-nav ml-lg-auto">
-					<li class="nav-item ml-auto"><a class="nav-link" href="index.html"><i class="fa fa-fort-awesome fa-xs"></i> Home</a></li>
+					<li class="nav-item ml-auto"><a class="nav-link"
+							href="index.html"><i class="fa fa-fort-awesome fa-xs"></i> Home</a></li>
 					<li class="nav-item ml-auto"><a class="nav-link" href="index.html#search">Search</a></li>
 					<li class="nav-item ml-auto"><a class="nav-link" href="index.html#contact">Contact</a></li>
 				</ul>
@@ -64,9 +65,9 @@
 			<div class="col-10 offset-1 col-md-8 offset-md-2">
 				<p id="sub-heading">Welcome to the page!</p>
 				<p>This website is built around finding the perfect excursions to castles within Brittany. Scroll down
-					to find a map of Brittany and it's castles and plan your trip! Brittany is littered with castles
-					which can be visited for a small fee (or free!) and provide a
-					brilliant attraction for both adults and children. They range in dates and ornateness and beauty.
+					to find a map of these castles and plan your trip! The countryside is littered with castles with
+					varying ornateness, age and beauty, which can be visited for a small fee (or free!) and provide a
+					brilliant attraction for both adults and children.
 				</p>
 				<p>Beneath this description are a few of my favourite castles I have had the opportunity to visit myself
 					on holidays to Brittany.</p>
@@ -74,37 +75,46 @@
 		</div>
 		<div class="row container-fluid no-gutters">
 			<div class="col-4 col-md-3" id="photo">
-                <img src="assets/images/vendeuvre.JPG" alt="Chateau de Vendeuvre" class="img-thumbnail img-fluid">
+				<img src="assets/images/vendeuvre.JPG" alt="Chateau de Vendeuvre" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau de Vendeuvre</div>
             </div>
-            <div class="col-4 col-md-3" id="photo">
-                <img src="assets/images/gaillon.JPG" alt="Chateau de Gaillon" class="img-thumbnail img-fluid">
+			<div class="col-4 col-md-3" id="photo">
+				<img src="assets/images/gaillon.JPG" alt="Chateau de Gaillon" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau de Gaillon</div>
             </div>
-            <div class="col-4 col-md-3" id="photo">
-                <img src="assets/images/d'o-mortree.JPG" alt="Chateau d'O de Mortrée" class="img-thumbnail img-fluid">
+			<div class="col-4 col-md-3" id="photo">
+				<img src="assets/images/d'o-mortree.JPG" alt="Chateau d'O de Mortrée" class="img-thumbnail img-fluid">
+                <div class="overlay">Chatea d'O - Mortrée</div>
             </div>
-            <div class="col-4 col-md-3" id="photo">
-                <img src="assets/images/combourg.JPG" alt="Chateau de Combourg" class="img-thumbnail img-fluid">
+			<div class="col-4 col-md-3" id="photo">
+				<img src="assets/images/combourg.JPG" alt="Chateau de Combourg" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau de Combourg</div>
             </div>
-            <div class="col-4 col-md-2" id="photo">
-                <img src="assets/images/fontaine-henry.JPG" alt="Chateau du Fontaine-Henry" class="img-thumbnail img-fluid">
+			<div class="col-4 col-md-2" id="photo">
+				<img src="assets/images/fontaine-henry.JPG" alt="Chateau du Fontaine-Henry" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau du Fontaine-Henry</div>
             </div>
-            <div class="col-4 col-md-2" id="photo">
-                <img src="assets/images/gaillard.JPG" alt="Chateau Gaillard" class="img-thumbnail img-fluid">
+			<div class="col-4 col-md-2" id="photo">
+				<img src="assets/images/gaillard.JPG" alt="Chateau Gaillard" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau Gaillard</div>
             </div>
-            
-            <div class="col-3 col-md-2" id="photo">
-                <img src="assets/images/carrouges.JPG" alt="Chateau des Carrouges" class="img-thumbnail img-fluid">
+			<div class="col-3 col-md-2" id="photo">
+				<img src="assets/images/carrouges.JPG" alt="Chateau des Carrouges" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau des Carrouges</div>
             </div>
-            <div class="col-3 col-md-2" id="photo">
-                <img src="assets/images/saint-germain-de-livet.JPG" alt="Chateau de Saint-Germain-de-Livet" class="img-thumbnail img-fluid">
+			<div class="col-3 col-md-2" id="photo">
+				<img src="assets/images/saint-germain-de-livet.JPG" alt="Chateau de Saint-Germain-de-Livet" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau de Saint-Germain-de-Livet</div>
             </div>
-            <div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2" id="photo">
                 <img src="assets/images/tonquedec.JPG" alt="Chateau de Tonquedec" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau de Tonquedec</div>
             </div>
-            <div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2" id="photo">
 				<img src="assets/images/canon.JPG" alt="Chateau de Canon" class="img-thumbnail img-fluid">
+                <div class="overlay">Chateau de Canon</div>
             </div>
-        </div>
+		</div>
 	</section>
 
 	<!-- SEARCH / MAP -->
@@ -122,20 +132,20 @@
 		</div>
 	</section>
 
-    <!-- SEARCH RESULTS -->
-    <section class="results container-fluid" id="results">
-        <div class="row no-gutters container-flui">
-            <div class="col-10 offset-1" style="min-height: 100px; border: solid 1px #999999">
-                <p>No Castles Selected!</p>
-                <p>JavaScript to go in here for populating it.</p>
-            </div>
-        </div>
-        <div id="gh-user-data" class="clearfix"></div>
-        <div id="gh-repo-data" class="clearfix"></div>
-        <hr class="horrule">
-    </section>
+	<!-- SEARCH RESULTS -->
+	<section class="results container-fluid" id="results">
+		<div class="row no-gutters container-flui">
+			<div class="col-10 offset-1" style="min-height: 100px; border: solid 1px #999999">
+				<p>No Castles Selected!</p>
+				<p>JavaScript to go in here for populating it.</p>
+			</div>
+		</div>
+		<div id="gh-user-data" class="clearfix"></div>
+		<div id="gh-repo-data" class="clearfix"></div>
+		<hr class="horrule">
+	</section>
 
-<!-- https://developers.google.com/places/web-service/search
+	<!-- https://developers.google.com/places/web-service/search
 https://developers.google.com/places/web-service/photos
 https://developers.google.com/places/web-service/details
 
@@ -154,7 +164,7 @@ https://developers.google.com/places/web-service/intro
 						<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your Email Address" required />
 						<input type="text" name="subject" id="subject" class="form-control" placeholder="Message Subject" required />
 						<textarea rows="5" name="fullmessage" id="fullmessage" class="form-control" placeholder="Type your message here" required></textarea>
-                        <div class="form-row text-center">
+						<div class="form-row text-center">
 							<div class="col">
 								<button type="submit" class="btn">Send Email</button>
 							</div>
@@ -163,7 +173,7 @@ https://developers.google.com/places/web-service/intro
 				</div>
 			</div>
 		</div>
-        
+
 	</section>
 
 
@@ -187,7 +197,7 @@ https://developers.google.com/places/web-service/intro
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyrCzti1IFJ1Q2TcZnMqha4OmdS5nyZkE&callback=initMap&libraries=places">
 	</script>
 	<script src="assets/js/maps.js"></script>
-    <script src="assets/js/sendEmail.js"></script>
+	<script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
