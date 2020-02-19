@@ -1,6 +1,3 @@
-
-
-/*
 function sendMail(contactForm) {
     emailjs.send("gmail","chateau",{
         "from_name": contactForm.name.value,
@@ -17,7 +14,7 @@ function sendMail(contactForm) {
         }
     );
     return false; // to block from loading a new page
-}*/
+}
 
 
 

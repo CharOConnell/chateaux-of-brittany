@@ -89,7 +89,7 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
 ## Testing
 Testing for the welcome photos:
 - I wanted to have the photos for all screen sizes, but I had 10 photos I wanted to use, so I had to create a system in the grid that would be suitable for all screen sizes
-- Three columns looked messy with the 10 photos, so I moved it to having 5 per row, but this did not look good for smaller screen sizes
+- Three columns looked messy with the 10 photos, so I moved it to having 4 and 6 per row respectively, but this did not look good for smaller screen sizes
 - For smaller screen sizes, I experimented with 4 on a row, but this again looked not as chic as I wanted, so I tested it with two rows of 3, and one of 4
 - I then checked using Chrome Developer Tools to check with all different variants provided there to make sure that it still looked how I wanted it to
 
@@ -101,9 +101,11 @@ Testing the menu:
 Testing the email using emailJS:
 - After initial setting up, a console.log("Hello") was added to the sendEmail.js to check functionality
 - Within emailJS test that the relevant email sends with the correct template as designed
+- Try sending a test email from the webpage and check that this works correctly
+
+Testing the contact form:
 - Attempt to submit an empty form to check an error message for the designated fields appears
 - Check that email address box requires an @ and produces the correct error message
-- do it through jasmine?
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
