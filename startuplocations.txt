@@ -1,0 +1,850 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CqQCHgEAAPJ3x1tk82MZCKczKhsvhYlQq6etfcZtebu7Ian71TBm3SbxoExoEGejwc30pEK6SWRWEQGI_OKrwRgUo0VYEqLdv9Rt9i_-f6sx0SJtQ4kaa_R3uGTbBdTPICikv93ipWBJkv45IbypA8sdGybXE81ftlflaZReBlwW0nkAesuXWtZhYlU8m-HKbZpgl8t8Uy1lJxj5wm74QPp4o0ahcyxYdVXX8u_IjxmWUOaCGxxj91IuzVdHIIT1R28nNlyyeOM6pf8qMm8D4CC7-BuGiscgAgOa2NJPSAJ9ffdTYb53F4BU75XhlbI5AN0oRJ3ZYuRjxg2xdQIDYTDj-CMFMjR8Iorny-4swG5sg-qydLEp-oJ7kvmKoRqsVcWJC_EaPxIQVVzP8Jtab-8q6mnSwn_HsBoUt0xYsmjX__ILlVKEwpr2Qq7W1k0",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.883771,
+               "lng" : -3.4745587
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.88515512989272,
+                  "lng" : -3.473206170107277
+               },
+               "southwest" : {
+                  "lat" : 47.88245547010727,
+                  "lng" : -3.475905829892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "13c9f8f2fa291ff69e47a8d4125ea08a52a34f3c",
+         "name" : "Château de Kerlarec",
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108947041330059447875\"\u003eFerdinand Huser\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA08FXwIxLOFCUuBgySyCu6xWwGZrm8TD-BhKfSOnwDa2OA41QnNAIgg_WO8OVsuvB7WA1UXozS1gkkjOvzHm_HMbVDyxtORRnIVNPuC6DSAnfJlvIIxvSyWR6D105WIurEhAcoNbiHqLaLuSFTD_xR11UGhSMTMOJo-RiO9ycmoQR61OFRs6m3A",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJ7bBqZTP4EEgRVpbIjpqe6OA",
+         "plus_code" : {
+            "compound_code" : "VGMG+G5 Arzano, France",
+            "global_code" : "8CVRVGMG+G5"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ7bBqZTP4EEgRVpbIjpqe6OA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Château de Kerlarec, Arzano"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.9522158,
+               "lng" : -2.5473921
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.95351527989273,
+                  "lng" : -2.546114220107278
+               },
+               "southwest" : {
+                  "lat" : 47.95081562010728,
+                  "lng" : -2.548813879892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "db3b09a7203db273b29bc7fe08dd6fa072e56c59",
+         "name" : "Josselin Castle",
+         "photos" : [
+            {
+               "height" : 2000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116219568907794560384\"\u003eGollier Jacques\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAAN09okCUSLve-4G2dMtqex1UgACZPdWH3ZNUDudXxNSAyiHDhT6ABYfBda9U6TO3xacpiui_A3NjRaBCW_SsIpuW6D4jXNzn1VNP58QdaX7mxhKtY5I_0LqvuMR3JDsZ7EhBDH0Q9usgQXLpMhf5xy1NRGhQ2Jk3q07Wb8C1VeHTb1A_MPhcZ9g",
+               "width" : 3008
+            }
+         ],
+         "place_id" : "ChIJM7mNghjOD0gRJEhJ0VDvw1c",
+         "plus_code" : {
+            "compound_code" : "XF23+V2 Josselin, France",
+            "global_code" : "8CVVXF23+V2"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJM7mNghjOD0gRJEhJ0VDvw1c",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "museum", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3234,
+         "vicinity" : "Place de la Congrégation, Josselin"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.7697027,
+               "lng" : -3.2824889
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.77089767989272,
+                  "lng" : -3.280818120107278
+               },
+               "southwest" : {
+                  "lat" : 47.76819802010728,
+                  "lng" : -3.283517779892723
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "f6266154b5e7731930916b2327404e21dcddfd97",
+         "name" : "CHATEAU DE LOCGUENOLE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2113,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108061340325462447307\"\u003eChâteau de Locguénolé\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA-g1kT95uUKB8uMuDHItHjdwDGXyCF2FEh5yVn-4TbCuoJIrogrRoJJcir8pHZV1oee_0gb0KSoKQ3kSN0HXtITq9GtYYQ-k0vbhH8gaK2pg9kTTK_IeZfDrhAF_QE2CiEhAvU9mwjU1H27OuREMWvqK3GhQNi4xjQncONyApGE43Pv8YhYpVKw",
+               "width" : 2545
+            }
+         ],
+         "place_id" : "ChIJCVZ3VvZcEEgRJCc9KCWwvCM",
+         "plus_code" : {
+            "compound_code" : "QP99+V2 Kervignac, France",
+            "global_code" : "8CVRQP99+V2"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJCVZ3VvZcEEgRJCc9KCWwvCM",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 225,
+         "vicinity" : "Locguenole, Kervignac"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.698839,
+               "lng" : -2.340141
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.70020507989272,
+                  "lng" : -2.338813170107278
+               },
+               "southwest" : {
+                  "lat" : 47.69750542010728,
+                  "lng" : -2.341512829892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5b28249b39408d0ae30565fc09cea1368766b12c",
+         "name" : "Castle Park Rochefort en Terre",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100497563152993610844\"\u003eBenjamin Douda\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAALzgEAjFEBxulkBP2KGNEeEA1o9jwXvS-TDCSsloav_tNS1ItBu-NrK_FReBV0OPatuDPUXXOXPVR0SeA81sdlnqy2YNMrNoMZew0eQKOWQsPcJ0qT6NB_CrBuUfSQdRNEhBwjg3dPV9dSiV9SgVLYHFWGhTFD9pn6LnkghWuhURNxCERzb9LKw",
+               "width" : 5120
+            }
+         ],
+         "place_id" : "ChIJM8VbyN-UD0gRW4dtd7EDuUo",
+         "plus_code" : {
+            "compound_code" : "MMX5+GW Rochefort-en-Terre, France",
+            "global_code" : "8CVVMMX5+GW"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJM8VbyN-UD0gRW4dtd7EDuUo",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2405,
+         "vicinity" : "14 Le Château, Rochefort-en-Terre"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.6551856,
+               "lng" : -2.7567086
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.65675427989272,
+                  "lng" : -2.755328370107278
+               },
+               "southwest" : {
+                  "lat" : 47.65405462010727,
+                  "lng" : -2.758028029892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "bb2c7ebf73bc4a1087fd59d50a3f3aa68d4b2557",
+         "name" : "Château de l'Hermine",
+         "photos" : [
+            {
+               "height" : 1329,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102861009602499186059\"\u003eНадежда Волкова\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAzE3MwvDozC39oPa3EL4SJ01T31JrhXMmS2_xXuJloKoQG3rLpbE05I_Ou4pSnPmiueXZXv6ZWxPDI8y01ehScEvkD2rBqqfku4RX7w0ueZnhvZ7BbMx3Vpc0n8gV2dbfEhBV3ejWklrRmCSVm3lj7LKhGhQMyfQQOBLz_XQHqMUSBANdM9y5Og",
+               "width" : 2360
+            }
+         ],
+         "place_id" : "ChIJNxqcSoMeEEgRcvO68Ckr7vs",
+         "plus_code" : {
+            "compound_code" : "M64V+38 Vannes, France",
+            "global_code" : "8CVVM64V+38"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJNxqcSoMeEEgRcvO68Ckr7vs",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 450,
+         "vicinity" : "5 Rue Porte Poterne, Vannes"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.952166,
+               "lng" : -2.5487503
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.95354232989273,
+                  "lng" : -2.547468920107278
+               },
+               "southwest" : {
+                  "lat" : 47.95084267010728,
+                  "lng" : -2.550168579892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "abad6e33081d9818b3300a59eb8e5f7a25fedd13",
+         "name" : "Logis Hôtel du Château",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 852,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112590049820218699479\"\u003eLogis Hôtel du Château\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAcrmDK5HpkfH_BGPyCPlui5BdaRa6519JYNWqapBkKJz-1TPZruuEHAq3v7C4mOPcSlZW2dHNgVzTkrCkeWqswNY1BcEBUXLS3UKmj81WzL1Z1j_g2-6hrl_f4e2chH8AEhAVdMvoHU-1-JHMcC4eypDoGhSG7vLNb7x9aK4TQgB8ZlIJzO14HA",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJMcjqECLOD0gR2n-ANfFDP1M",
+         "plus_code" : {
+            "compound_code" : "XF22+VF Josselin, France",
+            "global_code" : "8CVVXF22+VF"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJMcjqECLOD0gR2n-ANfFDP1M",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 194,
+         "vicinity" : "1 Rue du Général de Gaulle, Josselin"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 48.1064163,
+               "lng" : -2.6512749
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.10774497989271,
+                  "lng" : -2.649928270107277
+               },
+               "southwest" : {
+                  "lat" : 48.10504532010727,
+                  "lng" : -2.652627929892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a88579b8af83178472059d7996630b9b3f203f44",
+         "name" : "Château du Gué de l'Isle",
+         "photos" : [
+            {
+               "height" : 484,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111019070400269672634\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAUavi0oLT85lPcfFlhgIcObOVw_jbYoT5BQ2S4ZiVT3zn6pHSrgrAj7pN4c5Qau48EyUguSJGKHDAoe0dqWnE0t-5vrqQ5DiCu76GcvkJiaTVMbWlPVWY5cFD1jrhSRhDEhDjQPzOKHXq6bu5SWaBy-JYGhSPIfx7jbNV0brNISf9HPnilkR0Ow",
+               "width" : 1087
+            }
+         ],
+         "place_id" : "ChIJRfZvhnMsDkgRK3f3VXnwPzw",
+         "plus_code" : {
+            "compound_code" : "484X+HF Saint-Étienne-du-Gué-de-l'Isle, France",
+            "global_code" : "8CWV484X+HF"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJRfZvhnMsDkgRK3f3VXnwPzw",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "Le Château, Saint-Étienne-du-Gué-de-l'Isle"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 48.4031405,
+               "lng" : -2.9087658
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.40443007989272,
+                  "lng" : -2.907470970107278
+               },
+               "southwest" : {
+                  "lat" : 48.40173042010728,
+                  "lng" : -2.910170629892723
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "629cd82dae2d87f20a1a3e2158d0f37d63c12d49",
+         "name" : "Château de Quintin",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3004,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103753839527382609121\"\u003edidier godard\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAHz1s_Wk7HWiWjgs0Qc2uNoAUhFqZH5bS-0WP7XyT1nWj5hEhAQhx1VE0Bws0GQ16BS6MpbNt5BJ1cMHEZR-0hBYIgZqPhBgllEFU3up0d5Ai4dWp-2UdNQQ21lxANayFEhCif191GaPsGR0fWk9HxqYnGhSForO1gmteNm9ngwnvi95pSjHsnw",
+               "width" : 5325
+            }
+         ],
+         "place_id" : "ChIJx9VKWVXmEUgRXkXcjlqVjH8",
+         "plus_code" : {
+            "compound_code" : "C33R+7F Quintin, France",
+            "global_code" : "8CWVC33R+7F"
+         },
+         "rating" : 4,
+         "reference" : "ChIJx9VKWVXmEUgRXkXcjlqVjH8",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 402,
+         "vicinity" : "Quintin"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.8718444,
+               "lng" : -2.4263263
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.87308637989273,
+                  "lng" : -2.424887120107277
+               },
+               "southwest" : {
+                  "lat" : 47.87038672010728,
+                  "lng" : -2.427586779892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c526aef28b71106227be2e1f7d9834f5227a2d44",
+         "name" : "Château Le Crevy Château",
+         "photos" : [
+            {
+               "height" : 3265,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117723840354469045743\"\u003eJohn McManus\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAGJc7TboVBlW1y_7zXCjbW_9L0maPsZYJWkPLrYN-FWeLcb62I2Eoz_lG-ebyi45A_M5Lg8VLCp05oLTPHwB48qtMO7dMC7iow75l5aZQoOptseKjgrK6oZs_7MnljSvGEhAMSJea0V1_bitHU6hsB9ZuGhQ11tMZqxfBP-K6u-jSgZAtj0BQ7A",
+               "width" : 4898
+            }
+         ],
+         "place_id" : "ChIJadqAyUjGD0gREu9vwc7jvM4",
+         "plus_code" : {
+            "compound_code" : "VHCF+PF La Chapelle-Caro, France",
+            "global_code" : "8CVVVHCF+PF"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJadqAyUjGD0gREu9vwc7jvM4",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12,
+         "vicinity" : "3 Avenue du Crevy, La Chapelle-Caro"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.5528842,
+               "lng" : -2.4454927
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.55425407989272,
+                  "lng" : -2.444318170107278
+               },
+               "southwest" : {
+                  "lat" : 47.55155442010728,
+                  "lng" : -2.447017829892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b05cce2fb92d7822b1865922d2dd72b9b8f559b8",
+         "name" : "Château de Séréac",
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108671355171131422257\"\u003eYvon Ravard\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAlqGoBcHYLFChxBwhd835FVQzTQQUETajkveOxmcMJ9D5iEPTSt38Os9golXnK949QsuHvmjsHI8rmIwnwHLfQimj63C9uGgMlgPICv960dKQuYyNhlH7reY_mbj9RdwWEhCYSUbj_0CJA4BWDt7dJstvGhRQTMD5llwgSbdmkXyfAOfPQzOntg",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJOwLJS5DxD0gRSNje4ASj8v0",
+         "plus_code" : {
+            "compound_code" : "HH33+5R Muzillac, France",
+            "global_code" : "8CVVHH33+5R"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJOwLJS5DxD0gRSNje4ASj8v0",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "Muzillac"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 48.4004784,
+               "lng" : -2.6777686
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.40178092989272,
+                  "lng" : -2.676316870107277
+               },
+               "southwest" : {
+                  "lat" : 48.39908127010727,
+                  "lng" : -2.679016529892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "23bc675786fb7908c64dfda274d31bc02dbee85f",
+         "name" : "Château du Colombier",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108671355171131422257\"\u003eYvon Ravard\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAZh0TQALdxc_hqdYl0Q5Qn-0YQt9yvirV4JLj5nm2zqxma6FnLZR_xuZnvyBHXJLIpnYYB5WbWe_5T5OwtqaSRD8_0_JY-_FpPbpCD6nEgUPE7-HUy1gD0HWj0bRfa55fEhCM2GpB5tX6bP4KXZtgfC-cGhTZ0L5dGAqOiBMMcsw5HlQYBFrdrQ",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJZRVRC9EYDkgRuvM0d3eMzjE",
+         "plus_code" : {
+            "compound_code" : "C82C+5V Hénon, France",
+            "global_code" : "8CWVC82C+5V"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJZRVRC9EYDkgRuvM0d3eMzjE",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 20,
+         "vicinity" : "Hénon"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 48.405809,
+               "lng" : -2.6376911
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.40713952989272,
+                  "lng" : -2.636418470107277
+               },
+               "southwest" : {
+                  "lat" : 48.40443987010727,
+                  "lng" : -2.639118129892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e7de894a559b847f8b54ed912fd4c751c42475d8",
+         "name" : "Château de Bogard SARL",
+         "photos" : [
+            {
+               "height" : 769,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109098036237921302054\"\u003eChâteau de Bogard\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5xEFpQqr_3HtKjkLQRfz1mJA6kIOiykQnoHoK0WBqPeMuOygJRTXoYI6Dfr2jkYkkhmOtvjwBjgBcLOMG7LUW8EUGbdL8n1lemfbpmurjR7faHmdcFHSDqEaoRiyZjaOEhB2vtZUvg-pKgF7bBkwU95QGhRPI_TY0YNk4Zh6EEKCokb7IETzIA",
+               "width" : 1158
+            }
+         ],
+         "place_id" : "ChIJJYE4NVQYDkgRUzVpSp5lDDU",
+         "plus_code" : {
+            "compound_code" : "C946+8W Quessoy, France",
+            "global_code" : "8CWVC946+8W"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJJYE4NVQYDkgRUzVpSp5lDDU",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 85,
+         "vicinity" : "Bogard, Quessoy"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 48.4171726,
+               "lng" : -2.9183544
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.41850017989272,
+                  "lng" : -2.916800720107278
+               },
+               "southwest" : {
+                  "lat" : 48.41580052010728,
+                  "lng" : -2.919500379892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e4d949fa00ed83a827c1985ee96315632ce2bf44",
+         "name" : "Château De La Noë Dryer",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113780694637623217758\"\u003eAlan Clark\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA77XP4OCsE8-SwvOi-vNEnD3FEDeQYxXJmZAeLGZhmFZpxwPUt9rPu49NSWGg469AvQIDHUBP0rO2MXyug1uJ3sVLHo-ihJoUWlPHX_hJnbvtVMp90VL_vcamKdguzINXEhCMnQUB4R5RO30afBHFBzK0GhSxW03iFHqBFKUBsLxZ4A3EdamONQ",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ3V7cfVzmEUgRGcjUJvuedfk",
+         "plus_code" : {
+            "compound_code" : "C38J+VM Le Fœil, France",
+            "global_code" : "8CWVC38J+VM"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ3V7cfVzmEUgRGcjUJvuedfk",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 35,
+         "vicinity" : "Le Fœil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 48.0701983,
+               "lng" : -2.9635876
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.07168237989272,
+                  "lng" : -2.962644470107278
+               },
+               "southwest" : {
+                  "lat" : 48.06898272010727,
+                  "lng" : -2.965344129892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a3fb45f306e0426f2e09530d484c06c0eb94b7a0",
+         "name" : "Castle of Rohan Dukes",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3008,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102633366689658345832\"\u003eNiels Rockel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAz9RjBENz-WVGnlgCItWWPW9UiE0Kk1T_qzPoT1V_qEagRU104F7bNW6DqGl1lLUqeeKweHgJgzIr_8q4zYmIAcAc3LXH6FZDmge50eNkEMy_KGIH-M3TQs8tXi4BS1bkEhB1tk4Lm3yUI3WNixEAdLWjGhRpGnpLpCZ6k5n-n50MFfJ4MYJaiw",
+               "width" : 4016
+            }
+         ],
+         "place_id" : "ChIJQ1XSl-LMEUgRtUCYxvEuCC8",
+         "plus_code" : {
+            "compound_code" : "32CP+3H Pontivy, France",
+            "global_code" : "8CWV32CP+3H"
+         },
+         "rating" : 4,
+         "reference" : "ChIJQ1XSl-LMEUgRtUCYxvEuCC8",
+         "scope" : "GOOGLE",
+         "types" : [ "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 354,
+         "vicinity" : "1 Rue de Lourmel, Pontivy"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 48.1449492,
+               "lng" : -2.543053
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.14625342989272,
+                  "lng" : -2.541700470107277
+               },
+               "southwest" : {
+                  "lat" : 48.14355377010727,
+                  "lng" : -2.544400129892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "022d4247a9fc78a56a24d0f59741bf120a405381",
+         "name" : "Château de Coëtlogon",
+         "place_id" : "ChIJRf90EZExDkgRfH4B-LESHGA",
+         "plus_code" : {
+            "compound_code" : "4FV4+XQ Coëtlogon, France",
+            "global_code" : "8CWV4FV4+XQ"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJRf90EZExDkgRfH4B-LESHGA",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "Coëtlogon"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.6437072,
+               "lng" : -2.9605519
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.64506642989272,
+                  "lng" : -2.959321620107277
+               },
+               "southwest" : {
+                  "lat" : 47.64236677010728,
+                  "lng" : -2.962021279892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "71c6e321ea065cf82e9b7e7280f1166eafc23739",
+         "name" : "Castle Kerisper",
+         "photos" : [
+            {
+               "height" : 3570,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116475559953375922200\"\u003eSimon Huet\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAADbOTW3oY7WMap88m65rKQpwrcudNRtquxaG5PmWWmsqXOIGRMo6yj_LAV71D2hNUp1qJ6Fzs37Uu05rLwyQlQgO-AiiYOZoaLogcwhul-SMpbwKcx3Pqw1n-0rdLYL-YEhDUjvPHUMegLHcQiTIj8uaQGhQ4ZjhRxAOrgXCstxLv2FkYzkPLgg",
+               "width" : 5355
+            }
+         ],
+         "place_id" : "ChIJ29wilVUREEgRae8KHWo4v0E",
+         "plus_code" : {
+            "compound_code" : "J2VQ+FQ Pluneret, France",
+            "global_code" : "8CVVJ2VQ+FQ"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ29wilVUREEgRae8KHWo4v0E",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 25,
+         "vicinity" : "lieu dit, Kérisper, Pluneret"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.8833689,
+               "lng" : -3.4744555
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.88470972989272,
+                  "lng" : -3.473109820107278
+               },
+               "southwest" : {
+                  "lat" : 47.88201007010728,
+                  "lng" : -3.475809479892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d28ffa873ecf848cc08fadc437e7d5a31ea3f4ef",
+         "name" : "Château de Kerlarec",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113252795570282961484\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAa3utUrSw-ODnDEnnL7St3gIpyZwLbcNsTWUCEmvFZwZririqEMnj8ZrVCvo83rh4AMEoXKxFxWG2VgN1PEZynPuAYi-PyDukOPg89Fce8WfDG3LOFodTXAPZtRsOvRJaEhC3bfDyDzThJledCbCa4P-aGhQAxp0jP1qtTMqP02TgJesb9qpPYQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJfVMyPHr4EEgRfKX_8MHEbkk",
+         "plus_code" : {
+            "compound_code" : "VGMG+86 Arzano, France",
+            "global_code" : "8CVRVGMG+86"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJfVMyPHr4EEgRfKX_8MHEbkk",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "Arzano"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.771218,
+               "lng" : -3.01808
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.77258862989272,
+                  "lng" : -3.016739620107277
+               },
+               "southwest" : {
+                  "lat" : 47.76988897010727,
+                  "lng" : -3.019439279892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "0efd39a293785e678ed9181d2804c24ba3920097",
+         "name" : "Crêperie du Château Rimaison",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 631,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102326476046394915861\"\u003eLa Crêperie du Château\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAi6Y_6oct8LxEI5bIPt5CfiKv4-b1qMBMvBiOGhMOAWDE8evnEa7Tzeh1rBCyKM3xeecyocmXXqeE4-zQGoVcH3Fye9QhTHGIotAS5-3QCa48dE5jmGo_rucRKpjHzFdgEhC09SfckSY_50p7W2mrcicMGhRW_CZLmwyEcS8efuhuylLisjj8oQ",
+               "width" : 842
+            }
+         ],
+         "place_id" : "ChIJwSZ-UPw-EEgRDFODlefJdxQ",
+         "plus_code" : {
+            "compound_code" : "QXCJ+FQ Pluvigner, France",
+            "global_code" : "8CVRQXCJ+FQ"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJwSZ-UPw-EEgRDFODlefJdxQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 272,
+         "vicinity" : "7 Route de Landaul, Pluvigner"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.8415827,
+               "lng" : -3.5425005
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.84293532989272,
+                  "lng" : -3.541148170107278
+               },
+               "southwest" : {
+                  "lat" : 47.84023567010728,
+                  "lng" : -3.543847829892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "61d7cc1d06bef38511184ed73b1e5fc6b694d006",
+         "name" : "Château de Carnoët",
+         "place_id" : "ChIJh-hGQenwEEgROK-itHyUaMY",
+         "plus_code" : {
+            "compound_code" : "RFR4+JX Quimperlé, France",
+            "global_code" : "8CVRRFR4+JX"
+         },
+         "rating" : 4,
+         "reference" : "ChIJh-hGQenwEEgROK-itHyUaMY",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "Route Forestière du Château, Quimperlé"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.5956334,
+               "lng" : -2.3983129
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.59687962989272,
+                  "lng" : -2.396927870107278
+               },
+               "southwest" : {
+                  "lat" : 47.59417997010728,
+                  "lng" : -2.399627529892722
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e09c46b50625fbdf653bbd288c8a3c78ad4066cc",
+         "name" : "Château de Branféré",
+         "opening_hours" : {},
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108371506078646132393\"\u003eDavid CARTIER-MICHAUD\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAcM95ZBFL9kunchO_S07zIhmzfK5ZteCnITh2L8zCi_ncfwieTXROQVEKtpQS640qz6jSO-MCyP_Ub5jT795--uzxtbZntH61_2SBqTJBfYkzoch0BG8c4JmZhGHiTlaIEhBWgLJa18cEVvg_CStffx_0GhTWMD6qjEAEf2HXa9PBlyHQHMjnxQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJzWGvHJztD0gRcFWB39gtLRs",
+         "plus_code" : {
+            "compound_code" : "HJW2+7M Le Guerno, France",
+            "global_code" : "8CVVHJW2+7M"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJzWGvHJztD0gRcFWB39gtLRs",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1531,
+         "vicinity" : "Le Guerno"
+      }
+   ],
+   "status" : "OK"
+}

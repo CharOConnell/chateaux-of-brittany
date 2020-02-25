@@ -5,16 +5,38 @@ function initMap() {
     zoom: 7.5
   });
 
+  // Create a <script> tag and set the USGS URL as the source.
+        var script = document.createElement('script');
+        // This example uses a local copy of the GeoJSON stored at
+        // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
+        script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
+        document.getElementsByTagName('head')[0].appendChild(script);
+      
+
 }
+// Loop through the results array and place a marker for each
+      // set of coordinates.
+      window.eqfeed_callback = function(results) {
+        for (var i = 0; i < results.features.length; i++) {
+          var coords = results.features[i].geometry.coordinates;
+          var latLng = new google.maps.LatLng(coords[1],coords[0]);
+          var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+          });
+        }
+    }
 
 function getNearbyPlaces(position) {
-      let request = {
+    let request = {
     location: position,
-    rankBy: google.maps.places.RankBy.DISTANCE,
+    radius: 50000,
+    // rankBy: google.maps.places.RankBy.DISTANCE,
     keyword: 'chateau'
     };
 
     service = new google.maps.places.PlacesService(map);
+    console.log(service);
     service.nearbySearch(request, nearbyCallback);
 }
 

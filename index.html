@@ -15,7 +15,7 @@
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-
+    <!--<script type="text/javascript" src="assets/js/main.js"></script>-->
 	<!-- Load Jasmine Framework -->
 	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
@@ -134,7 +134,7 @@
 	<!-- SEARCH RESULTS -->
 	<section class="results container-fluid" id="results">
 		<div class="row no-gutters container-flui">
-			<div class="col-10 offset-1" style="min-height: 100px; border: solid 1px #999999">
+			<div class="col-10 offset-1" style="min-height: 100px; border: solid 1px #999999" id="data">
 				<p>No Castles Selected!</p>
 				<p>JavaScript to go in here for populating it.</p>
 			</div>
@@ -192,48 +192,8 @@ https://developers.google.com/places/web-service/intro
 	<script
 		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
 	</script>
-    <script>
-    function initMap() {
-  // Create a map centered in Brittany.
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 48.000, lng: -3.000},
-    zoom: 7.5
-  });
-
-}
-
-function getNearbyPlaces(position) {
-      let request = {
-    location: position,
-    rankBy: google.maps.places.RankBy.DISTANCE,
-    keyword: 'chateau'
-    };
-console.log(request)
-    service = new google.maps.places.PlacesService(map);
-    service.nearbySearch(request, nearbyCallback);
-}
-
-// Handle the results (up to 20) of the Nearby Search
-function nearbyCallback(results, status) {
-    if (status == google.maps.places.PlacesServiceStatus.OK) {
-    createMarkers(results);
-    }
-}
-
-/* TODO: Step 3C, Generate markers for search results */
-// Set markers at the location of each place result
-function createMarkers(places) {
-    places.forEach(place => {
-    let marker = new google.maps.Marker({
-        position: place.geometry.location,
-        map: map,
-        title: place.name
-        });
-    });
-}
-    </script>
 	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=places">
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyrCzti1IFJ1Q2TcZnMqha4OmdS5nyZkE&callback=initMap&libraries=places">
 	</script>
 	<script src="assets/js/testMaps.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
