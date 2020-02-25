@@ -6,5 +6,5 @@ xhr.onreadystatechange = function() {
     }
 };
 
-xhr.open("GET", "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=48%2C-3&radius=50000&keyword=chateau&key=AIzaSyAyrCzti1IFJ1Q2TcZnMqha4OmdS5nyZkE");
+xhr.open("GET", "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=48%2C-3&radius=50000&keyword=chateau&key=YOUR_API_KEY");
 xhr.send();
