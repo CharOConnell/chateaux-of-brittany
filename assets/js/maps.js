@@ -7,12 +7,11 @@ function initMap() {
 
   var request = {
     location:    {lat: 48.000, lng: -3.000},
-    radius: 50000, 
+    radius: 99999, 
     keyword: 'chateau',
     fields: ['name','geometry','photos','rating','opening_hours']
     };
 
-  console.log(request);
     service = new google.maps.places.PlacesService(map);
 
     service.nearbySearch(request, function(results,status) {
@@ -20,7 +19,7 @@ function initMap() {
             for (var i=0; i < results.length; i++) {
                 createMarker(results[i]);
             }
-        }
+        }// put in that if it doesn't receive a result, what to do!
     })
 }
 

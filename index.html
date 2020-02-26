@@ -24,6 +24,10 @@
 
     <script type="text/javascript" src="assets/specs/formspec.js"></script>
 -->
+    <!-- Load AJAX functionality for searching for castles -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/castle-search-information.js"></script>
+
 	<!-- Load emailJS Framework -->
 	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
 	<script type="text/javascript">
@@ -121,9 +125,7 @@
 		<hr class="horrule">
 		<div class="text-centre" id="searchbar">
 			<i class="fa fa-fort-awesome"></i>&nbsp;<i class="fa fa-search"></i>&nbsp;
-			<input type="text" id="chateau-search-name" placeholder="Chateau de la Roche-Jagu">
-			<!--oninput="fetchGitHubInformation()"-->
-
+			<input type="text" id="chateau-search-name" value="Chateau de la Roche-Jagu" oninput="fetchChateauInformation()">
 		</div>
 		<div class="row no-gutters container-fluid">
 			<!--<div class="col-10 offset-1" style="min-height: 360px; border: solid 1px red">Map Placeholder</div>-->
@@ -133,14 +135,13 @@
 
 	<!-- SEARCH RESULTS -->
 	<section class="results container-fluid" id="results">
-		<div class="row no-gutters container-flui">
-			<div class="col-10 offset-1" style="min-height: 100px; border: solid 1px #999999" id="data">
-				<p>No Castles Selected!</p>
-				<p>JavaScript to go in here for populating it.</p>
+		<div class="row no-gutters container-fluid">
+			<div class="col-10 offset-1" id="data">
+                <p>No Castles Selected!</p>
 			</div>
 		</div>
-		<div id="gh-user-data" class="clearfix"></div>
-		<div id="gh-repo-data" class="clearfix"></div>
+		<div id="castle-data" class="clearfix"></div>
+		<div id="castle-photos" class="clearfix"></div>
 		<hr class="horrule">
 	</section>
 
@@ -190,7 +191,7 @@ https://developers.google.com/places/web-service/intro
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
 	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=places">
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyrCzti1IFJ1Q2TcZnMqha4OmdS5nyZkE&callback=initMap&libraries=places">
 	</script>
 	<script src="assets/js/maps.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
