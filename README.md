@@ -145,4 +145,5 @@ All elements which I have used within this page that were inspired by, or are fr
 - The dropdown menu was styled using the Bootstrap "navbar" item, found [here](https://getbootstrap.com/docs/4.0/components/navbar/), and was originally used in a previous project which can be found [here](https://github.com/CharOConnell/charlottes-web)
 - Help for the Google Maps API / Google Places API found [here](https://developers.google.com/maps/documentation/javascript/places?hl=es)
 - Help for styling the map was found [here](https://developers.google.com/maps/documentation/javascript/styling?hl=es)
-- Help for the nearby places was found [here](https://github.com/googlecodelabs/google-maps-nearby-search-js/blob/master/step3/index.html)
+- Help for the initial map settings was found [here](https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/place-search)
+- Help for the nearby places was found [here](https://developers.google.com/maps/documentation/javascript/places#place_search_requests)
