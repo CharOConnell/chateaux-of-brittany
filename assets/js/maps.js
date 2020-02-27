@@ -4,9 +4,9 @@ function initMap() {
     center: {lat: 48.000, lng: -3.000},
     zoom: 7.5
   });
-
+  
   var request = {
-    location:    {lat: 48.000, lng: -3.000},
+    location: {lat: 48.000, lng: -3.000},
     radius: 99999, 
     keyword: 'chateau',
     fields: ['name','geometry','photos','rating','opening_hours']
@@ -23,14 +23,18 @@ function initMap() {
     })
 }
 
+// NEED TO ADD IN A THING WHERE IF YOU ZOOM, IT REPOPULATES THE NEARBY CASTLES!
+
 function createMarker(place) {
     var marker = new google.maps.Marker({
         map: map,
         position: place.geometry.location
     });
-/*
+
     google.maps.event.addListener(marker, 'click', function() {
-        infowindow.setContent(place.name); // need to change to our filling out information!
-        infowindow.open(map, this);
-    });*/
+        $("#castle-data").html(`<h4>${place.name}</h4>
+        <p>This castle is rated with ${place.rating} stars from previous visitors.</p>`)
+        // need to add in the photos!
+        // do we need to rearrange the map to centre this?
+    });
 }

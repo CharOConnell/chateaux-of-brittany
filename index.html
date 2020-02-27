@@ -128,8 +128,8 @@
 			<input type="text" id="chateau-search-name" value="" placeholder="Chateau de la Roche-Jagu" oninput="fetchChateauInformation()">
 		</div>
 		<div class="row no-gutters container-fluid">
-			<div class="col-10 offset-1" style="min-height: 360px; border: solid 1px red">Map Placeholder</div>
-			<!--<div class="col-10 offset-1" id="map"></div>-->
+			<!--<div class="col-10 offset-1" style="min-height: 360px; border: solid 1px red">Map Placeholder</div>-->
+			<div class="col-10 offset-1" id="map"></div>
             <!-- commented to limit loads whilst working on other items -->
 		</div>
 	</section>
@@ -138,7 +138,6 @@
 	<section class="results container-fluid" id="results">
 		<div class="row no-gutters container-fluid">
 			<div class="col-10 offset-1" id="data">
-                <p>No Castles Selected!</p>
 			</div>
 		</div>
 		<div id="castle-data"></div>
@@ -184,10 +183,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
-	<!--<script async defer
+	<script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=places">
 	</script>
-	<script src="assets/js/maps.js"></script>-->
+	<script src="assets/js/maps.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
 </body>
 
