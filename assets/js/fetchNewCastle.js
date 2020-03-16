@@ -4,7 +4,12 @@ function fetchNewCastle() {
     $("#castle-data-name").html(``); // empty the data that might already be there from clicking on the map
     $("#castle-data").html(``); // empty the data that might already be there from clicking on the map
 
-    console.log(castleName)
+    /*
+    // Create a map centered in Brittany - refresh it to remove the markers
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 48.000, lng: -3.000 },
+        zoom: 7.5
+    });*/
 
     var request = {
         location: { lat: 48.000, lng: -3.000 },
@@ -22,7 +27,10 @@ function fetchNewCastle() {
                 var place = results[i];
                 createMarker(results[i]);
             }
-            console.log(results) // need to have an option if it doesn't find anything! Just to show it works for now
+        } else {
+            $("#castle-data-name").html(`<h4>No Results Found.</h4>`); // empty the data that might already be there from clicking on the map
+            $("#castle-data").html(`<p>Please enter another name and try again!</p>`); // empty the data that might already b
         }
     }
 }
+
