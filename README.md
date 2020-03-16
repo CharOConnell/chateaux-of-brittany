@@ -56,8 +56,6 @@ I created a tablet wireframe (included in the .pdf) as historically this came ou
 #### Surface
 The light yellow colour scheme with grey theme was designed to feel modern and happy, yet chic and user friendly for all users. 
 
-
-
 ## Features
 The majority of my website is built upon the grid system within Bootstrap, especially using the flex functionality. 
 JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop down box which was collapsible for smaller screen sizes and a user friendly contact form. 
@@ -66,6 +64,7 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
 - Contact form - allows users to contact me via email, by having them fill out the form. I have set this up so that it has a designed email template
 - Photograph locations - allows the users to click on my personal photos and see which castle it is, so they can potentially look it up for further details
 - Dropdown menu - allows users to have a minimised menu for smaller screen sizes
+- Auto-populating fields from the Google Maps API setup with information about castles searched
 
 ### Features Left to Implement
 - Allowing users to make reviews directly from the website
@@ -85,6 +84,8 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
     - The project uses **Font Awesome** for icons within the webpage
 - [emailJS](https://www.emailjs.com/)
     - The project uses **emailJS** to send emails from the contact form to my personal account
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
+    - The project uses **Google Maps API** to show a map, search for castles and retrieve information about the castles
 
 ## Testing
 Testing for the welcome photos:
@@ -108,9 +109,20 @@ Testing the contact form:
 - Check that email address box requires an @ and produces the correct error message
 - 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing the map functionality:
+- Check that the map orients itself within Brittany
+- Check that it sets up automatically with a selection of castles as markers
+- Try clicking on each marker to see if the information fills out using my JavaScript code
+- Check that there is a message saying nothing is found if the API cannot find any information
+- Check that there are no photos or information lingering when searching for a new castle
+- Check that there is a loading search text
+- Try inputting non-English to the search panel to receive an error
+- Check markers are overwritten with any new searches
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -130,10 +142,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 ### Content
-Text was written by me within the site. Any information attached to the maps is from the Google Maps API and Google Places API.
+Text was written by me within the site. Any information attached to the maps is from the Google Maps API and Google Places API built into my own text.
 
 ### Media
-The photos used in this site were taken from my personal collection of holiday photos. 
+The photos used in the landing page of this site were taken from my personal collection of holiday photos, photos linking to the maps are found from the Google Maps API directory.
 All information attached to the maps is retrieved from Google Maps API.
 All icons are from the Font Awesome website.
 
@@ -141,7 +153,7 @@ All icons are from the Font Awesome website.
 All elements which I have used within this page that were inspired by, or are from exteranl sources, are linked below:
 - For the base information to create the flex system, I used [this page](https://getbootstrap.com/docs/4.0/utilities/flex/) as a reference
 - To make the overlay on my personal images, I used ideas from this [tutorial](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) in order to provide extra information to users
-- For the contact section, I used emailJS .. need to find where that's from actually..
+- For the contact section, I used emailJS originally used within a tutorial within this section of the Code Academy course and using the inbuilt help from their website which can be found [here](https://www.emailjs.com/docs/)
 - The dropdown menu was styled using the Bootstrap "navbar" item, found [here](https://getbootstrap.com/docs/4.0/components/navbar/), and was originally used in a previous project which can be found [here](https://github.com/CharOConnell/charlottes-web)
 - Help for the Google Maps API / Google Places API found [here](https://developers.google.com/maps/documentation/javascript/places?hl=es)
 - Help for styling the map was found [here](https://developers.google.com/maps/documentation/javascript/styling?hl=es)
