@@ -24,6 +24,7 @@ function initMap() {
             }
         }// put in that if it doesn't receive a result, what to do!
     })
+
 }
 
 // NEED TO ADD IN A THING WHERE IF YOU ZOOM, IT REPOPULATES THE NEARBY CASTLES!
@@ -34,10 +35,19 @@ function createMarker(place) {
         position: place.geometry.location
     });
     google.maps.event.addListener(marker, 'click', function () {
-        console.log(place.photos);
+        console.log(place.place_id);
         $("#castle-data-name").html(`<h4>${place.name}</h4>`)
         $("#castle-data").html(`<p>This castle is rated with ${place.rating} stars from ${place.user_ratings_total} previous visitors.</p>`)
         // need to add in the photos!
+
+
+        var photos = place.photos;
+        if (!photos) {
+            $("#castle-photos").html(`<p class="text-centre">No images found.</p>`)
+            return;
+        }
+        console.log(photos[0].getUrl())
+        $("#castle-photos").html(`<img src="${photos[0].getUrl()}" alt="Chateau du Fontaine-Henry" class="img-thumbnail img-fluid">`)
         // do we need to rearrange the map to centre this? - No, only on the searched singular items
     });
 }

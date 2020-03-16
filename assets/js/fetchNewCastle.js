@@ -3,13 +3,11 @@ function fetchNewCastle() {
 
     $("#castle-data-name").html(``); // empty the data that might already be there from clicking on the map
     $("#castle-data").html(``); // empty the data that might already be there from clicking on the map
+    $('#castle-photos').html(``);
 
     /*
     // Create a map centered in Brittany - refresh it to remove the markers
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: 48.000, lng: -3.000 },
-        zoom: 7.5
-    });*/
+    */
 
     var request = {
         location: { lat: 48.000, lng: -3.000 },
@@ -23,13 +21,18 @@ function fetchNewCastle() {
 
     function callback(results, status) {
         if (status == google.maps.places.PlacesServiceStatus.OK) {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 48.000, lng: -3.000 },
+                zoom: 7.5
+            });
             for (var i = 0; i < results.length; i++) {
                 var place = results[i];
                 createMarker(results[i]);
             }
         } else {
             $("#castle-data-name").html(`<h4>No Results Found.</h4>`); // empty the data that might already be there from clicking on the map
-            $("#castle-data").html(`<p>Please enter another name and try again!</p>`); // empty the data that might already b
+            $("#castle-data").html(`<p>Please enter another name and try again!</p>`); // empty the data that might already 
+            $('#castle-photos').html(``);
         }
     }
 }
