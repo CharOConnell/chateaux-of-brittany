@@ -3,12 +3,9 @@ function fetchNewCastle() {
 
     $("#castle-data-name").html(``); // empty the data that might already be there from clicking on the map
     $("#castle-data").html(``); // empty the data that might already be there from clicking on the map
-    $('#castle-photos').html(``);
+    $('#castle-photos').html(``); // empty the photos that might already be there from clicking on the map
 
-    /*
-    // Create a map centered in Brittany - refresh it to remove the markers
-    */
-
+    // search for anything typed into the search box accompagnied with "chateau" to force the results
     var request = {
         location: { lat: 48.000, lng: -3.000 },
         radius: 60000,
@@ -20,7 +17,7 @@ function fetchNewCastle() {
     service.textSearch(request, callback);
 
     function callback(results, status) {
-        if (status == google.maps.places.PlacesServiceStatus.OK) {
+        if (status == google.maps.places.PlacesServiceStatus.OK) { // refresh map to remove old markers
             map = new google.maps.Map(document.getElementById('map'), {
                 center: { lat: 48.000, lng: -3.000 },
                 zoom: 7.5
@@ -29,10 +26,10 @@ function fetchNewCastle() {
                 var place = results[i];
                 createMarker(results[i]);
             }
-        } else {
+        } else { // no results are found
             $("#castle-data-name").html(`<h4>No Results Found.</h4>`); // empty the data that might already be there from clicking on the map
             $("#castle-data").html(`<p>Please enter another name and try again!</p>`); // empty the data that might already 
-            $('#castle-photos').html(``);
+            $('#castle-photos').html(``); // empty the photos that might already be there from clicking on the map
         }
     }
 }
