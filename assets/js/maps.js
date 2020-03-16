@@ -5,6 +5,9 @@ function initMap() {
     zoom: 7.5
   });
   
+// add the bounds here, so we can scroll around the map and it auto-loads with the bounds.
+// Then the radius can be set automatically from here
+
   var request = {
     location: {lat: 48.000, lng: -3.000},
     radius: 99999, 
@@ -32,9 +35,10 @@ function createMarker(place) {
     });
 
     google.maps.event.addListener(marker, 'click', function() {
-        $("#castle-data").html(`<h4>${place.name}</h4>
-        <p>This castle is rated with ${place.rating} stars from previous visitors.</p>`)
+        console.log(place.photos[0]);
+        $("#castle-data-name").html(`<h4>${place.name}</h4>`)
+        $("#castle-data").html(`<p>This castle is rated with ${place.rating} stars from ${place.user_ratings_total} previous visitors.</p>`)
         // need to add in the photos!
-        // do we need to rearrange the map to centre this?
+        // do we need to rearrange the map to centre this? - No, only on the searched singular items
     });
 }

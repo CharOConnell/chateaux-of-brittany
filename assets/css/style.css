@@ -248,6 +248,16 @@ div#map {
     margin-bottom: 15px;
 }
 
+#loader {
+    margin-bottom: 20px;
+}
+
+#castle-search-btn {
+    margin: 0;
+    padding: 0 5px;
+    font-size: 15px;
+}
+
 /* CONTACT SECTION */
 .form-control {
     background-color: #fff;
