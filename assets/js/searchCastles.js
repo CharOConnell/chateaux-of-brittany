@@ -4,10 +4,36 @@ function searchCastles() {
 
     if (castleLength == 0) {
         emptyData()
-    } else if ((castleLength < 3) && castleLength > 0) {
-        emptyData()
-        $("#loading-data").html(`<div id="loader"><i class="fa fa-map-marker"></i> . . .  Loading castle data . . . <i class="fa fa-globe fa-spin"></i> </div>`);
+        $("#castle-data-name").html(`<h4>No Results Found.</h4>`); // display no results found
+        $("#loading-data").html(`<p>Please enter another name and try again!</p>`);
+        
+        // Put the intial map on display
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 48.000, lng: -3.000 },
+            zoom: 7.5
+        });
+
+        // search for chateau within a radius of the centre of Brittany
+        var request = {
+            location: { lat: 48.000, lng: -3.000 },
+            radius: 20000,
+            keyword: 'chateau',
+            fields: ['name', 'geometry', 'photos', 'rating', 'opening_hours']
+        };
+
+        service = new google.maps.places.PlacesService(map);
+
+        // create markers for the initial map
+        service.nearbySearch(request, function (results, status) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                for (var i = 0; i < results.length; i++) {
+                    createMarker(results[i]);
+                }
+            }
+        })
+
     } else {
+        emptyData()
         // search for anything typed into the search box accompagnied with "chateau" to force the results
         var request = {
             location: { lat: 48.000, lng: -3.000 },
@@ -30,12 +56,9 @@ function searchCastles() {
                     createMarker(results[i]);
                 }
                 if (results.length == 0) {
-                    emptyData()
                     $("#castle-data-name").html(`<h4>No Results Found.</h4>`); // display no results found
                     $("#castle-data").html(`<p>Please enter another name and try again!</p>`);
                 }
-            } else { // no results are found
-                emptyData()
             }
         }
     }

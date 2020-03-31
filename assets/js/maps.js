@@ -8,7 +8,7 @@ function initMap() {
     // search for chateau within a radius of the centre of Brittany
     var request = {
         location: { lat: 48.000, lng: -3.000 },
-        radius: 20000,
+        radius: 99999,
         keyword: 'chateau',
         fields: ['name', 'geometry', 'photos', 'rating', 'opening_hours']
     };
@@ -34,7 +34,11 @@ function createMarker(place) {
     // set up the info fields when the markers are clicked
     google.maps.event.addListener(marker, 'click', function () {
         $("#castle-data-name").html(`<h4>${place.name}</h4>`)
-        $("#castle-data").html(`<p>This castle is rated with ${place.rating} stars from ${place.user_ratings_total} previous visitors.</p>`)
+        if (place.rating == undefined) {
+            $("#castle-data").html(`<p>This castle has not been rated by previous visitors.</p>`)
+        } else {
+            $("#castle-data").html(`<p>This castle is rated with <strong>${place.rating} stars</strong> from <strong>${place.user_ratings_total} previous visitors</strong>.</p>`)
+        }
 
         // sort out the photos section to fill
         var photos = place.photos;
