@@ -25,8 +25,7 @@
 		(function(){
             emailjs.init("user_YUlJga6yO9NXvpaCGsnxX");
         })();
-	</script>
-    
+	</script>    
 </head>
 
 <body>
@@ -118,13 +117,16 @@
 		<hr class="horrule">
 		<div class="text-centre" id="searchbar">
 			<i class="fa fa-fort-awesome"></i>&nbsp;&nbsp;
-			<input type="text" id="chateau-search-name" value="" placeholder="Chateau de la Roche-Jagu" oninput="fetchChateauInformation()">
-            <button class="btn" type="submit" id="castle-search-btn" onclick="fetchNewCastle()"><i class="fa fa-search"></i> Search</button>
+			<input type="text" id="chateau-search-name" value="" placeholder="Chateau de la Roche-Jagu" oninput="searchCastles()">
+            <div class="row no-gutters container-fluid">
+                <div class="col-10 offset-1" id="loading-data"></div>
+            </div>
 		</div>
 			<div class="row no-gutters container-fluid">
 				<div class="col-10 offset-1" id="map"></div>
 			</div>
 	</section>
+
 
 	<!-- SEARCH RESULTS -->
 	<section class="results container-fluid" id="results">
@@ -186,7 +188,7 @@
     <script src="assets/js/mykey.js"></script>
 	<script src="assets/js/maps.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
-    <script src="assets/js/fetchNewCastle.js"></script>
+    <script src="assets/js/searchCastles.js"></script>
 </body>
 
 </html>

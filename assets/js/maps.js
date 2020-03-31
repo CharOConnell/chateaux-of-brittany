@@ -8,7 +8,7 @@ function initMap() {
     // search for chateau within a radius of the centre of Brittany
     var request = {
         location: { lat: 48.000, lng: -3.000 },
-        radius: 99999,
+        radius: 20000,
         keyword: 'chateau',
         fields: ['name', 'geometry', 'photos', 'rating', 'opening_hours']
     };
