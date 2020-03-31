@@ -15,15 +15,6 @@
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-	<!--<script type="text/javascript" src="assets/js/main.js"></script>-->
-	<!-- Load Jasmine Framework -->
-	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.js" integrity="sha256-HG8TKl0T65NyELmbUoo0H7/a1e++smYdXXtuuEsyKok=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css"/>
-
-    <script type="text/javascript" src="assets/specs/formspec.js"></script>
--->
 	<!-- Load AJAX functionality for searching for castles -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/castle-search-information.js"></script>
@@ -35,6 +26,7 @@
             emailjs.init("user_YUlJga6yO9NXvpaCGsnxX");
         })();
 	</script>
+    
 </head>
 
 <body>
@@ -192,9 +184,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
-	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY&callback=initMap&libraries=places">
-	</script>
+    <script src="assets/js/key.js"></script>
+    <script async defer id="legooglemaps">console.log(document.getElementById("legooglemaps").src+="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=places&key=")
+    document.getElementById("legooglemaps").src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=places&key="+"testkey"
+    </script>
 	<script src="assets/js/maps.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
     <script src="assets/js/fetchNewCastle.js"></script>
