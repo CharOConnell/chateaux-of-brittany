@@ -68,6 +68,9 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
 
 ### Features Left to Implement
 - Allowing users to make reviews directly from the website
+- Extra details about each castle to be retrieved from the Google Maps API
+- To have a special marker on the map when it is clicked so you know which castle was clicked for that information to have been produced
+- To have the maps update the search results as you scroll around Brittany 
 
 ## Technologies Used
 - HTML 
@@ -107,7 +110,6 @@ Testing the email using emailJS:
 Testing the contact form:
 - Attempt to submit an empty form to check an error message for the designated fields appears
 - Check that email address box requires an @ and produces the correct error message
-- 
 
 Testing the map functionality:
 - Check that the map orients itself within Brittany
@@ -119,26 +121,34 @@ Testing the map functionality:
 - Try inputting non-English to the search panel to receive an error
 - Check markers are overwritten with any new searches
 
+Screen sizes:
+- The map was not large enough on a smaller screen size, so this was adjusted
+- The interactive photos from clicking on the markers were not wide enough on smaller screen sizes, so an adjustment was made
+- The contact form bottom margin had too much spacing on all systems so was reduced
 
+Browser details:
+- All development was done within Chrome browser
+- Mozilla was checked and the same functionality was found 
+- Safari was also checked, but only in mobile view
 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Bugs found:
+- Hiding the API key was at first an issue, which is explained in more detail in the deployment section
+- The radius on the maps do not always work as they find search results further out of the range of the suggested sizing
 
 ## Deployment
+This project has been deployed using GitHub Pages. 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The process involved consists of:
+- Adding regularly to the Git branch, committing with comments each time
+- Pushing this Git branch to GitHub
+- Within GitHub, enabling GitHub Pages to host the site
+- GitHub Pages then provides the hosted webpage link
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+In order to hide the API key:
+- There is a secondary "cloned" repository which is private
+    - This is the website that is deployed using GitHub Pages
+- There is also the original repository which contains all the files used to create the project
+- The only thing not present is the personal API key for the Google Maps API platform used
 
 ## Credits
 ### Content

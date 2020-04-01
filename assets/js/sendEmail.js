@@ -7,13 +7,13 @@ function sendMail(contactForm) {
     }) 
     .then(
         function(response) {
-            console.log("SUCCESS", response); // successful
+            console.log("SUCCESS", response); // successfully sends data to email
         },
         function(error) {
-            console.log("FAILED", error); // if it failed
+            console.log("FAILED", error); // if it failed to send
         }
     );
-    return false; // to block from loading a new page
+    return false; // to block the button from loading a new page
 }
 
 

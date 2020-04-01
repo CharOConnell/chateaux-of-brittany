@@ -1,12 +1,13 @@
 function searchCastles() {
+    // search for castles from the entries to the textbox
     castleName = $("#chateau-search-name").val();
     castleLength = castleName.length
 
     if (castleLength == 0) {
-        emptyData()
+        emptyData() // empty any data already existing
         $("#castle-data-name").html(`<h4>No Results Found.</h4>`); // display no results found
         $("#loading-data").html(`<p>Please enter another name and try again!</p>`);
-        initialMap()
+        initialMap() // load initial map
 
     } else if ((castleLength > 0) && (castleLength <= 2)) {
         emptyData()
@@ -14,12 +15,13 @@ function searchCastles() {
 
     } else {
         emptyData()
-        newCastleSearch()
+        newCastleSearch() // search and output results from google maps
     }
 }
 
 function emptyData() {
-    $("#castle-data-name").html(``); // empty the data that might already be there from clicking on the map
+    // empty the data that might already exist in the interactive results boxes
+    $("#castle-data-name").html(``); 
     $("#castle-data").html(``);
     $('#castle-photos').html(``);
     $('#loading-data').html(``);
@@ -65,7 +67,8 @@ function newCastleSearch() {
     service.textSearch(request, callback);
 
     function callback(results, status) {
-        if (status == google.maps.places.PlacesServiceStatus.OK) { // refresh map to remove old markers
+        if (status == google.maps.places.PlacesServiceStatus.OK) { 
+            // refresh map to remove old markers
             map = new google.maps.Map(document.getElementById('map'), {
                 center: { lat: 48.000, lng: -3.000 },
                 zoom: 7.5
@@ -74,7 +77,8 @@ function newCastleSearch() {
                 var place = results[i];
                 createMarker(results[i]);
             }
-            if (results.length == 0) { // if no results found, display no results to user
+            if (results.length == 0) { 
+                // if no results found, display no results to user
                 $("#castle-data-name").html(`<h4>No Results Found.</h4>`);
                 $("#castle-data").html(`<p>Please enter another name and try again!</p>`);
             }

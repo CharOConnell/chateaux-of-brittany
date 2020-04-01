@@ -33,7 +33,7 @@ function createMarker(place) {
 
     // set up the info fields when the markers are clicked
     google.maps.event.addListener(marker, 'click', function () {
-        $("#loading-data").html(``)
+        $("#loading-data").html(``) // clear any messages put in from textbox searches
         $("#castle-data-name").html(`<h4>${place.name}</h4>`)
         if (place.rating == undefined) {
             $("#castle-data").html(`<p>This castle has not been rated by previous visitors.</p>`)
@@ -41,12 +41,14 @@ function createMarker(place) {
             $("#castle-data").html(`<p>This castle is rated with <strong>${place.rating} stars</strong> from <strong>${place.user_ratings_total} previous visitors</strong>.</p>`)
         }
 
-        // sort out the photos section to fill
+        // output the resulted photos from the Google Maps API search
         var photos = place.photos;
         if (!photos) {
             $("#castle-photos").html(`<p class="text-centre">No images found.</p>`)
             return;
-        } // if there are no photos found option
+        } 
+        
+        // if there are no photos found option
         $("#castle-photos").html(`<img src="${photos[0].getUrl()}" alt="Chateau du Fontaine-Henry" class="img-thumbnail img-fluid">`)
     });
 }
