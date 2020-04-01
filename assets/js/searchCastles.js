@@ -1,12 +1,13 @@
 function searchCastles() {
+    // search for castles from the entries to the textbox
     castleName = $("#chateau-search-name").val();
     castleLength = castleName.length
 
     if (castleLength == 0) {
-        emptyData()
+        emptyData() // empty any data already existing
         $("#castle-data-name").html(`<h4>No Results Found.</h4>`); // display no results found
         $("#loading-data").html(`<p>Please enter another name and try again!</p>`);
-        initialMap()
+        initialMap() // load initial map
 
     } else if ((castleLength > 0) && (castleLength <= 2)) {
         emptyData()
@@ -14,12 +15,12 @@ function searchCastles() {
 
     } else {
         emptyData()
-        newCastleSearch()
+        newCastleSearch() // search and output results from google maps
     }
 }
 
 function emptyData() {
-    // empty the data that might already be there from clicking on the map
+    // empty the data that might already exist in the interactive results boxes
     $("#castle-data-name").html(``); 
     $("#castle-data").html(``);
     $('#castle-photos').html(``);

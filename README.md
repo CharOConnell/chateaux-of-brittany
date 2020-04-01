@@ -123,7 +123,6 @@ Testing the map functionality:
 - Try inputting non-English to the search panel to receive an error
 - Check markers are overwritten with any new searches
 
-
 Checking using Validator:
 - Using the online validator [here](validator.w3.org), the html validity was checked
 - Minor errors flagged as results, maps and footer sections do not have any headings
@@ -145,7 +144,6 @@ Bugs found:
 - The radius on the maps do not always work as they find search results further out of the range of the suggested sizing
 
 ## Deployment
-
 This project has been deployed using GitHub Pages. 
 
 The process involved consists of:
