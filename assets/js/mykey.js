@@ -1,0 +1,3 @@
+var _0x316e=['AIzaSyAyrCzti1IFJ1Q2TcZnMqha4OmdS5nyZkE'];(function(_0x37473f,_0x316ede){var _0x157e41=function(_0x1d8071){while(--_0x1d8071){_0x37473f['push'](_0x37473f['shift']());}};_0x157e41(++_0x316ede);}(_0x316e,0x14c));var _0x157e=function(_0x37473f,_0x316ede){_0x37473f=_0x37473f-0x0;var _0x157e41=_0x316e[_0x37473f];return _0x157e41;};var mykey=_0x157e('0x0');
+
+document.getElementById("testingkey").src = "https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=places&key=" + mykey;

@@ -89,6 +89,8 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
     - The project uses **emailJS** to send emails from the contact form to my personal account
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
     - The project uses **Google Maps API** to show a map, search for castles and retrieve information about the castles
+- [Obfuscator](https://obfuscator.io/)
+    - The project protected my personal Google Maps API key using this **obfuscator** generator
 
 ## Testing
 Testing for the welcome photos:
@@ -145,10 +147,8 @@ The process involved consists of:
 - GitHub Pages then provides the hosted webpage link
 
 In order to hide the API key:
-- There is a secondary "cloned" repository which is private
-    - This is the website that is deployed using GitHub Pages
-- There is also the original repository which contains all the files used to create the project
-- The only thing not present is the personal API key for the Google Maps API platform used
+- I have used the help of the [obfuscator](https://obfuscator.io/) to obscure my key
+- This can still be read by the JavaScript file, but cannot be read by humans, making the API key safe
 
 ## Credits
 ### Content
@@ -169,3 +169,4 @@ All elements which I have used within this page that were inspired by, or are fr
 - Help for styling the map was found [here](https://developers.google.com/maps/documentation/javascript/styling?hl=es)
 - Help for the initial map settings was found [here](https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/place-search)
 - Help for the nearby places was found [here](https://developers.google.com/maps/documentation/javascript/places#place_search_requests)
+- Help was found from the Slack website about the [obfuscator](https://obfuscator.io/) found from this [post](https://code-institute-room.slack.com/archives/C0L316Z96/p1572955016271400)
