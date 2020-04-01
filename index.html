@@ -17,15 +17,15 @@
 
 	<!-- Load AJAX functionality for searching for castles -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/searchCastles.js"></script>
+	<script src="assets/js/searchCastles.js"></script>
 
 	<!-- Load emailJS Framework -->
-	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-	<script type="text/javascript">
+	<script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+	<script>
 		(function(){
             emailjs.init("user_YUlJga6yO9NXvpaCGsnxX");
         })();
-	</script>    
+	</script>
 </head>
 
 <body>
@@ -68,44 +68,45 @@
 					on holidays to Brittany.</p>
 			</div>
 		</div>
-		<div class="row container-fluid no-gutters">
-			<div class="col-4 col-md-3" id="photo">
+		<!-- My holiday photos section with captions -->
+		<div class="row container-fluid no-gutters" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/vendeuvre.JPG" alt="Chateau de Vendeuvre" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Vendeuvre</div>
 			</div>
-			<div class="col-4 col-md-3" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/gaillon.JPG" alt="Chateau de Gaillon" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Gaillon</div>
 			</div>
-			<div class="col-4 col-md-3" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/d'o-mortree.JPG" alt="Chateau d'O de Mortrée" class="img-thumbnail img-fluid">
 				<div class="overlay">Chatea d'O - Mortrée</div>
 			</div>
-			<div class="col-4 col-md-3" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/combourg.JPG" alt="Chateau de Combourg" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Combourg</div>
 			</div>
-			<div class="col-4 col-md-2" id="photo">
+			<div class="col-4 col-md-2">
 				<img src="assets/images/fontaine-henry.JPG" alt="Chateau du Fontaine-Henry" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau du Fontaine-Henry</div>
 			</div>
-			<div class="col-4 col-md-2" id="photo">
+			<div class="col-4 col-md-2">
 				<img src="assets/images/gaillard.JPG" alt="Chateau Gaillard" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau Gaillard</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/carrouges.JPG" alt="Chateau des Carrouges" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau des Carrouges</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/saint-germain-de-livet.JPG" alt="Chateau de Saint-Germain-de-Livet" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Saint-Germain-de-Livet</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/tonquedec.JPG" alt="Chateau de Tonquedec" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Tonquedec</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/canon.JPG" alt="Chateau de Canon" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Canon</div>
 			</div>
@@ -115,16 +116,18 @@
 	<!-- SEARCH / MAP -->
 	<section class="search-me container-fluid" id="search">
 		<hr class="horrule">
+		<!-- Search bar -->
 		<div class="text-centre" id="searchbar">
 			<i class="fa fa-fort-awesome"></i>&nbsp;&nbsp;
 			<input type="text" id="chateau-search-name" value="" placeholder="Chateau de la Roche-Jagu" oninput="searchCastles()">
-            <div class="row no-gutters container-fluid">
-                <div class="col-10 offset-1" id="loading-data"></div>
-            </div>
-		</div>
 			<div class="row no-gutters container-fluid">
-				<div class="col" id="map"></div>
+				<div class="col-10 offset-1" id="loading-data"></div>
 			</div>
+		</div>
+        <!-- Google Maps map -->
+		<div class="row no-gutters container-fluid">
+			<div class="col" id="map"></div>
+		</div>
 	</section>
 
 
@@ -134,7 +137,7 @@
 			<div class="col-10 offset-1" id="data">
 			</div>
 		</div>
-        <div class="row no-gutters container-fluid text-centre">
+		<div class="row no-gutters container-fluid text-centre">
 			<div class="col-10 offset-1 uppercase" id="castle-data-name"></div>
 		</div>
 		<div class="row no-gutters container-fluid text-centre">
@@ -184,11 +187,11 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
-    <script async defer id="testingkey"></script>
-    <script src="assets/js/mykey.js"></script>
+	<script id="testingkey"></script>
+	<script src="assets/js/mykey.js"></script>
 	<script src="assets/js/maps.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
-    <script src="assets/js/searchCastles.js"></script>
+	<script src="assets/js/searchCastles.js"></script>
 </body>
 
 </html>

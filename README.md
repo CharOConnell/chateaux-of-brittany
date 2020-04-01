@@ -68,6 +68,9 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
 
 ### Features Left to Implement
 - Allowing users to make reviews directly from the website
+- Extra details about each castle to be retrieved from the Google Maps API
+- To have a special marker on the map when it is clicked so you know which castle was clicked for that information to have been produced
+- To have the maps update the search results as you scroll around Brittany 
 
 ## Technologies Used
 - HTML 
@@ -86,6 +89,8 @@ JavaScript and JQuery additions to Bootstrap allowed me to have a smoother drop 
     - The project uses **emailJS** to send emails from the contact form to my personal account
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
     - The project uses **Google Maps API** to show a map, search for castles and retrieve information about the castles
+- [Obfuscator](https://obfuscator.io/)
+    - The project protected my personal Google Maps API key using this **obfuscator** generator
 
 ## Testing
 Testing for the welcome photos:
@@ -107,7 +112,6 @@ Testing the email using emailJS:
 Testing the contact form:
 - Attempt to submit an empty form to check an error message for the designated fields appears
 - Check that email address box requires an @ and produces the correct error message
-- 
 
 Testing the map functionality:
 - Check that the map orients itself within Brittany
@@ -120,25 +124,39 @@ Testing the map functionality:
 - Check markers are overwritten with any new searches
 
 
+Checking using Validator:
+- Using the online validator [here](validator.w3.org), the html validity was checked
+- Minor errors flagged as results, maps and footer sections do not have any headings
+- CSS was checked uing the online validator [here](http://www.css-validator.org/)
 
+Screen sizes:
+- The map was not large enough on a smaller screen size, so this was adjusted
+- The interactive photos from clicking on the markers were not wide enough on smaller screen sizes, so an adjustment was made
+- The contact form bottom margin had too much spacing on all systems so was reduced
+- The website was checked for all the screen sizes available on Chrome Developer Tools
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Browser details:
+- All development was done within Chrome browser
+- Mozilla was checked and the same functionality was found 
+- Safari was also checked, but only in mobile view
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Bugs found:
+- Hiding the API key was at first an issue, which is explained in more detail in the deployment section
+- The radius on the maps do not always work as they find search results further out of the range of the suggested sizing
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project has been deployed using GitHub Pages. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+The process involved consists of:
+- Adding regularly to the Git branch, committing with comments each time
+- Pushing this Git branch to GitHub
+- Within GitHub, enabling GitHub Pages to host the site
+- GitHub Pages then provides the hosted webpage link
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+In order to hide the API key:
+- I have used the help of the [obfuscator](https://obfuscator.io/) to obscure my key
+- This can still be read by the JavaScript file, but cannot be read by humans, making the API key safe
 
 ## Credits
 ### Content
@@ -159,3 +177,4 @@ All elements which I have used within this page that were inspired by, or are fr
 - Help for styling the map was found [here](https://developers.google.com/maps/documentation/javascript/styling?hl=es)
 - Help for the initial map settings was found [here](https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/place-search)
 - Help for the nearby places was found [here](https://developers.google.com/maps/documentation/javascript/places#place_search_requests)
+- Help was found from the Slack website about the [obfuscator](https://obfuscator.io/) found from this [post](https://code-institute-room.slack.com/archives/C0L316Z96/p1572955016271400)
