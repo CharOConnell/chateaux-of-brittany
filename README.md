@@ -124,7 +124,9 @@ Testing the map functionality:
 - Check markers are overwritten with any new searches
 
 Checking using Validator:
-- Used the validator.w3.org to check the html validity
+- Using the online validator [here](validator.w3.org), the html validity was checked
+- Minor errors flagged as results, maps and footer sections do not have any headings
+- CSS was checked uing the online validator [here](http://www.css-validator.org/)
 
 Screen sizes:
 - The map was not large enough on a smaller screen size, so this was adjusted
