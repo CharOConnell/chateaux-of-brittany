@@ -200,7 +200,7 @@ button .navbar-toggler .navbar-toggler-icon {
 }
 
 /* IMAGES */
-#photo {
+.photo {
     padding: 0.7vw;
     display: block;
 }
