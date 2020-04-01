@@ -123,10 +123,14 @@ Testing the map functionality:
 - Try inputting non-English to the search panel to receive an error
 - Check markers are overwritten with any new searches
 
+Checking using Validator:
+- Used the validator.w3.org to check the html validity
+
 Screen sizes:
 - The map was not large enough on a smaller screen size, so this was adjusted
 - The interactive photos from clicking on the markers were not wide enough on smaller screen sizes, so an adjustment was made
 - The contact form bottom margin had too much spacing on all systems so was reduced
+- The website was checked for all the screen sizes available on Chrome Developer Tools
 
 Browser details:
 - All development was done within Chrome browser

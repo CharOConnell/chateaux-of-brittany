@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Chateau Hunting</title>
-    <!-- Load in external stylesheets -->
+	<!-- Load in external stylesheets -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -16,11 +17,11 @@
 
 	<!-- Load AJAX functionality for searching for castles -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/searchCastles.js"></script>
+	<script src="assets/js/searchCastles.js"></script>
 
 	<!-- Load emailJS Framework -->
-	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-	<script type="text/javascript">
+	<script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+	<script>
 		(function(){
             emailjs.init("user_YUlJga6yO9NXvpaCGsnxX");
         })();
@@ -55,7 +56,7 @@
 			<i class="fa fa-fort-awesome fa-xs"></i></h1>
 		<hr class="horrule">
 
-        <!-- Introduction / Welcome blurb -->
+		<!-- Introduction / Welcome blurb -->
 		<div class="row container-fluid no-gutters text-centre">
 			<div class="col-10 offset-1 col-md-8 offset-md-2">
 				<p id="sub-heading">Welcome to the page!</p>
@@ -68,45 +69,45 @@
 					on holidays to Brittany.</p>
 			</div>
 		</div>
-        <!-- My holiday photos section with captions -->
-		<div class="row container-fluid no-gutters">
-			<div class="col-4 col-md-3" id="photo">
+		<!-- My holiday photos section with captions -->
+		<div class="row container-fluid no-gutters" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/vendeuvre.JPG" alt="Chateau de Vendeuvre" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Vendeuvre</div>
 			</div>
-			<div class="col-4 col-md-3" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/gaillon.JPG" alt="Chateau de Gaillon" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Gaillon</div>
 			</div>
-			<div class="col-4 col-md-3" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/d'o-mortree.JPG" alt="Chateau d'O de Mortrée" class="img-thumbnail img-fluid">
 				<div class="overlay">Chatea d'O - Mortrée</div>
 			</div>
-			<div class="col-4 col-md-3" id="photo">
+			<div class="col-4 col-md-3">
 				<img src="assets/images/combourg.JPG" alt="Chateau de Combourg" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Combourg</div>
 			</div>
-			<div class="col-4 col-md-2" id="photo">
+			<div class="col-4 col-md-2">
 				<img src="assets/images/fontaine-henry.JPG" alt="Chateau du Fontaine-Henry" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau du Fontaine-Henry</div>
 			</div>
-			<div class="col-4 col-md-2" id="photo">
+			<div class="col-4 col-md-2">
 				<img src="assets/images/gaillard.JPG" alt="Chateau Gaillard" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau Gaillard</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/carrouges.JPG" alt="Chateau des Carrouges" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau des Carrouges</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/saint-germain-de-livet.JPG" alt="Chateau de Saint-Germain-de-Livet" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Saint-Germain-de-Livet</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/tonquedec.JPG" alt="Chateau de Tonquedec" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Tonquedec</div>
 			</div>
-			<div class="col-3 col-md-2" id="photo">
+			<div class="col-3 col-md-2">
 				<img src="assets/images/canon.JPG" alt="Chateau de Canon" class="img-thumbnail img-fluid">
 				<div class="overlay">Chateau de Canon</div>
 			</div>
@@ -116,7 +117,7 @@
 	<!-- SEARCH / MAP -->
 	<section class="search-me container-fluid" id="search">
 		<hr class="horrule">
-        <!-- Search bar -->
+		<!-- Search bar -->
 		<div class="text-centre" id="searchbar">
 			<i class="fa fa-fort-awesome"></i>&nbsp;&nbsp;
 			<input type="text" id="chateau-search-name" value="" placeholder="Chateau de la Roche-Jagu" oninput="searchCastles()">
@@ -124,7 +125,7 @@
 				<div class="col-10 offset-1" id="loading-data"></div>
 			</div>
 		</div>
-        <!-- Google Maps map -->
+		<!-- Google Maps map -->
 		<div class="row no-gutters container-fluid">
 			<div class="col" id="map"></div>
 		</div>
@@ -132,7 +133,7 @@
 
 	<!-- SEARCH RESULTS -->
 	<section class="results container-fluid" id="results">
-        <div class="row no-gutters container-fluid">
+		<div class="row no-gutters container-fluid">
 			<div class="col-10 offset-1" id="data">
 			</div>
 		</div>
@@ -184,7 +185,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
-	<script async defer id="testingkey"></script>
+	<script id="testingkey"></script>
 	<script src="assets/js/mykey.js"></script>
 	<script src="assets/js/maps.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
