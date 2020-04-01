@@ -33,6 +33,7 @@ function createMarker(place) {
 
     // set up the info fields when the markers are clicked
     google.maps.event.addListener(marker, 'click', function () {
+        $("#loading-data").html(``)
         $("#castle-data-name").html(`<h4>${place.name}</h4>`)
         if (place.rating == undefined) {
             $("#castle-data").html(`<p>This castle has not been rated by previous visitors.</p>`)

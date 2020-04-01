@@ -258,6 +258,10 @@ div#map {
     font-size: 15px;
 }
 
+#castle-photos {
+    margin-bottom: 20px;
+}
+
 /* CONTACT SECTION */
 .form-control {
     background-color: #fff;
@@ -274,17 +278,21 @@ div#map {
     margin: auto;
     max-width: 85vw;
     max-height: 50vh;
-    min-height: 40vh;
+    min-height: 50px;
 }
 
 button[type="submit"] {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #000;
     background-color: #ffff85;
     font-size: 2vh;
     font-weight: bold;
     border: solid 1px #999999;
+}
+
+#form-contact {
+    margin-top: 20px;
 }
 
 /* FOOTER */
