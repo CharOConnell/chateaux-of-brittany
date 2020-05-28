@@ -10,7 +10,7 @@ function initMap() {
         location: { lat: 48.000, lng: -3.000 },
         radius: '99999',
         keyword: 'chateau',
-        fields: ['name', 'geometry', 'photos', 'rating', 'opening_hours']
+        fields: ['name', 'geometry', 'photos', 'rating']
     };
 
     service = new google.maps.places.PlacesService(map);
@@ -49,6 +49,6 @@ function createMarker(place) {
         } 
         
         // if there are no photos found option
-        $("#castle-photos").html(`<img src="${photos[0].getUrl()}" alt="Chateau du Fontaine-Henry" class="img-thumbnail img-fluid">`)
+        $("#castle-photos").html(`<img src="${photos[0].getUrl()}" alt="Chateau du Fontaine-Henry" class="img-fluid photograph">`)
     });
 }
