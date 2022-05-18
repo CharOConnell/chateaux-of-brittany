@@ -44,20 +44,20 @@
 				<ul class="navbar-nav ml-lg-auto">
 					<li class="nav-item ml-auto"><a class="nav-link" href="index.html#home">Home</a></li>
 					<li class="nav-item ml-auto"><a class="nav-link" href="index.html#search">Search</a></li>
-					<li class="nav-item ml-auto"><a class="nav-link" href="index.html#contact">Contact</a></li>
+					<!-- <li class="nav-item ml-auto"><a class="nav-link" href="index.html#contact">Contact</a></li>-->
 				</ul>
 			</div>
 		</nav>
 	</header>
 
 	<!-- WELCOME LANDING PAGE -->
-	<section class="welcome">
+	<section class="welcome container-fluid">
 		<h2 class="heading text-centre"><i class="fa fa-fort-awesome fa-xs"></i> Bienvenue!
 			<i class="fa fa-fort-awesome fa-xs"></i></h2>
 		<hr class="horrule">
 
 		<!-- Introduction / Welcome blurb -->
-		<div class="row container-fluid no-gutters text-centre">
+		<div class="row no-gutters text-centre">
 			<div class="col-10 offset-1 col-md-8 offset-md-2">
 				<p id="sub-heading">Welcome to the page!</p>
 				<p>This website is built around finding the perfect excursions to castles within Brittany. Scroll down
@@ -70,7 +70,7 @@
 			</div>
 		</div>
 		<!-- My holiday photos section with captions -->
-		<div class="row container-fluid no-gutters">
+		<div class="row no-gutters">
 			<div class="col-4 col-md-3">
 				<img src="assets/images/vendeuvre.JPG" alt="Chateau de Vendeuvre" class="img-fluid photograph">
 				<div class="overlay">Chateau de Vendeuvre</div>
@@ -115,57 +115,64 @@
 	</section>
 
 	<!-- SEARCH / MAP -->
-    <hr class="horrule">
-    <!-- Search bar -->
-    <div class="text-centre" id="searchbar">
-        <i class="fa fa-fort-awesome"></i>&nbsp;&nbsp;
-        <input type="text" id="chateau-search-name" value="" placeholder="Chateau de la Roche-Jagu" oninput="searchCastles()">
-        <div class="row no-gutters container-fluid">
-            <div class="col-10 offset-1" id="loading-data"></div>
-        </div>
-    </div>
-    <!-- Google Maps map -->
-    <div class="row no-gutters container-fluid">
-        <div class="col" id="map"></div>
-    </div>
+    <section class="container-fluid">
+		<hr class="horrule">
+		<!-- Search bar -->
+		<div class="text-centre" id="searchbar">
+			<i class="fa fa-fort-awesome"></i>&nbsp;&nbsp;
+			<input type="text" id="chateau-search-name" value="" placeholder="Chateau de la Roche-Jagu" oninput="searchCastles()">
+			<div class="row no-gutters">
+				<div class="col-10 offset-1" id="loading-data"></div>
+			</div>
+		</div>
+    	<!-- Google Maps map -->
+		<div class="row no-gutters">
+			<div class="col" id="map"></div>
+		</div>
+	</section>
 
 	<!-- SEARCH RESULTS -->
-    <div class="row no-gutters container-fluid" id="results">
-        <div class="col-10 offset-1" id="data">
-        </div>
-    </div>
-    <div class="row no-gutters container-fluid text-centre">
-        <div class="col-10 offset-1 uppercase" id="castle-data-name"></div>
-    </div>
-    <div class="row no-gutters container-fluid text-centre">
-        <div class="col-10 offset-1" id="castle-data"></div>
-    </div>
-    <div class="row no-gutters container-fluid">
-        <div id="castle-photos" class="col col-md-10 offset-md-1"></div>
-    </div>
-    <hr class="horrule">
+	<section class="container-fluid">
+		<div class="row no-gutters" id="results">
+			<div class="col-10 offset-1" id="data">
+			</div>
+		</div>
+		<div class="row no-gutters text-centre">
+			<div class="col-10 offset-1 uppercase" id="castle-data-name"></div>
+		</div>
+		<div class="row no-gutters text-centre">
+			<div class="col-10 offset-1" id="castle-data"></div>
+		</div>
+		<div class="row no-gutters">
+			<div id="castle-photos" class="col col-md-10 offset-md-1"></div>
+		</div>
+		<!--<hr class="horrule">-->
+	</section>
 
 	<!-- CONTACT -->
-    <h1 class="heading text-centre">Contact</h1>
-    <hr class="horrule">
-    <div class="row container-fluid no-gutters" id="form-contact">
-        <div class="col-8 offset-2">
-            <div class="center-form">
-                <form onsubmit="return sendMail(this);">
-                    <input type="text" name="name" id="name" class="form-control form-control-sm" placeholder="Your Name" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control form-control-sm" placeholder="Your Email Address" required />
-                    <input type="text" name="subject" id="subject" class="form-control form-control-sm" placeholder="Message Subject" required />
-                    <textarea rows="5" name="fullmessage" id="fullmessage" class="form-control form-control-sm" placeholder="Type your message here" required></textarea>
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn">Send Email</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
+	<!--
+	<section class="container-fluid">
+		<h1 class="heading text-centre">Contact</h1>
+		<hr class="horrule">
+		<div class="row no-gutters" id="form-contact">
+			<div class="col-8 offset-2">
+				<div class="center-form">
+					<form onsubmit="return sendMail(this);">
+						<input type="text" name="name" id="name" class="form-control form-control-sm" placeholder="Your Name" required />
+						<input type="email" name="email" id="emailaddress" class="form-control form-control-sm" placeholder="Your Email Address" required />
+						<input type="text" name="subject" id="subject" class="form-control form-control-sm" placeholder="Message Subject" required />
+						<textarea rows="5" name="fullmessage" id="fullmessage" class="form-control form-control-sm" placeholder="Type your message here" required></textarea>
+						<div class="form-row text-center">
+							<div class="col">
+								<button type="submit" class="btn">Send Email</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+--> 
 	<!-- FOOTER -->
 	<div class="footer"></div>
 
