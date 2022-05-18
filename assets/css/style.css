@@ -276,9 +276,9 @@ div#map {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     margin: auto;
-    max-width: 85vw;
-    max-height: 50vh;
-    min-height: 50px;
+    max-width: 85%;
+    /* max-height: 50vh;
+    min-height: 50px;*/
 }
 
 button[type="submit"] {
